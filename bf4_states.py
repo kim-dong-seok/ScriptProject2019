@@ -8,6 +8,10 @@ import tkinter as tk
 data=requests.get("https://api.bf4stats.com/api/playerInfo?plat=pc&name=sharqia&output=json").json() #서버에 GET 요청
 print(data)
 print(data.keys())
+data2=requests.get("https://api.bf4stats.com/api/playerRankings?plat=pc&name=sharqia&output=json").json()
+print(data2)
+rankings=data2["rankings"]
+print(rankings)
 state=data['stats']
 player=data['player']
 print(player.keys())
