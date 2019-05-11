@@ -14,13 +14,13 @@ online_xone=online["xone"]
 online_xbox=online["xbox"]
 online_total=online_pc["count"]+online_ps4["count"]+online_ps3["count"]+online_xbox["count"]+online_xone["count"]
 class App2:
-    def __init__(self, window, window_title, video_source=0):
-        self.window = window
-        self.window.title(window_title)
+    def __init__(self, video_source=0):
+        self.window = Tk()
+        self.window.title("bf4.gg")
         self.video_source = video_source
         self.originimage1 = Image.open("image/ranks/r140.png").resize((100, 100))
         self.rankImage = ImageTk.PhotoImage(self.originimage1)
-        self.originimage2 = Image.open("Battlefield_4_logo.png").resize((400, 80))
+        self.originimage2 = Image.open("bf4.gg.png").resize((400, 80))
         self.logoImage = ImageTk.PhotoImage(self.originimage2)
         self.orlginOpacity = Image.open("opacity.png")
         self.opacityImage = ImageTk.PhotoImage(self.orlginOpacity.resize((500, 200)))
@@ -28,7 +28,7 @@ class App2:
         # open video source (by default this will try to open the computer webcam)
         self.vid = MyVideoCapture(self.video_source)
         # Create a canvas that can fit the above video source size
-        self.canvas = Canvas(window, width = 800, height = 600)
+        self.canvas = Canvas(self.window, width = 800, height = 600)
         self.canvas.pack()
         self.e1 = Entry(self.canvas,font=("",12),width = 30)
         self.e1.insert(0,"Player name")
@@ -121,4 +121,4 @@ class MyVideoCapture:
             self.vid.release()
 
 # Create a window and pass it to the Application object
-App2(Tk(), "Tkinter and OpenCV","bg-video.mp4")
+App2("bg-video.mp4")
