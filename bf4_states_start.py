@@ -14,21 +14,22 @@ online_xone=online["xone"]
 online_xbox=online["xbox"]
 online_total=online_pc["count"]+online_ps4["count"]+online_ps3["count"]+online_xbox["count"]+online_xone["count"]
 class App2:
-    def __init__(self, video_source=0):
+    def __init__(self):
         self.window = Tk()
         self.window.title("bf4.gg")
-        self.video_source = video_source
+        self.video_source = "bg-video.mp4"
         self.originimage1 = Image.open("image/ranks/r140.png").resize((100, 100))
         self.rankImage = ImageTk.PhotoImage(self.originimage1)
         self.originimage2 = Image.open("bf4.gg.png").resize((400, 80))
         self.logoImage = ImageTk.PhotoImage(self.originimage2)
         self.orlginOpacity = Image.open("opacity.png")
         self.opacityImage = ImageTk.PhotoImage(self.orlginOpacity.resize((500, 200)))
+
         self.count=0
         # open video source (by default this will try to open the computer webcam)
         self.vid = MyVideoCapture(self.video_source)
         # Create a canvas that can fit the above video source size
-        self.canvas = Canvas(self.window, width = 800, height = 600)
+        self.canvas = Canvas(self.window, width = 1920, height = 1080)
         self.canvas.pack()
         self.e1 = Entry(self.canvas,font=("",12),width = 30)
         self.e1.insert(0,"Player name")
@@ -54,7 +55,7 @@ class App2:
 
         if ret:
             self.canvas.delete("grim")
-            self.photo = ImageTk.PhotoImage(image = Image.fromarray(frame).resize((800, 600)))
+            self.photo = ImageTk.PhotoImage(image=Image.fromarray(frame).resize((1920, 1080)))
             self.canvas.create_image(0, 0, image = self.photo, anchor = NW,tag="grim")
             self.canvas.create_image(400, 400, image=self.opacityImage,tag="grim")
             self.canvas.create_image(400, 180, image=self.logoImage,tag="grim")
@@ -121,4 +122,4 @@ class MyVideoCapture:
             self.vid.release()
 
 # Create a window and pass it to the Application object
-App2("bg-video.mp4")
+App2()
