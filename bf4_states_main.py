@@ -8,10 +8,7 @@ from bs4 import  BeautifulSoup
 import urllib.request
 
 
-html=urllib.request.Request("http://battlelog.battlefield.com/bf4/ko/emblem/edit/personal/2955059192938964035/1042896933/1?output=json")
-source= urllib.request.urlopen(html).read()
 
-print(source)
 
 
 
