@@ -27,6 +27,8 @@ weapons=player_data["weapons"]
 weaponCategory=player_data["weaponCategory"]
 kititems=player_data["kititems"]
 vehicles=player_data["vehicles"]
+modes=stats["modes"]
+kits=stats["kits"]
 vehicleCategory=player_data["vehicleCategory"]
 awards=player_data["awards"]
 assignments=player_data["assignments"]
@@ -39,14 +41,37 @@ print(stats["kits"])
 print("인식표")
 print(dogtags.keys())
 print(player_data["assignments"])
-
+rank_weapons=sorted(weapons,key=lambda t:t["stat"]["kills"],reverse=True)
+rank_vehicles=sorted(vehicles,key=lambda t:t["stat"]["kills"],reverse=True)
+rank_modes=sorted(modes,key=lambda t:t["score"],reverse=True)
+print(rank_modes)
 
 class player_main:
     def __init__(self):
         self.skill=0
-        self.origin_level_image = Image.open("image/ranks/r140.png").resize((120, 120))
+        self.star_gauge=[0]*4
+        self.service_star_gauge = [0] * 5
+        self.service_star = [0] * 5
+        self.service_star[0] = kits["assault"]["score"] / 155000
+        self.service_star[1] = kits["engineer"]["score"] / 131000
+        self.service_star[2] = kits["support"]["score"] / 134000
+        self.service_star[3] = kits["recon"]["score"] / 104000
+        self.service_star[4] = kits["commander"]["score"] / 20000
+        self.origin_level_image = Image.open("bf4/ranks/r140.png").resize((120, 120))
         self.level_image = ImageTk.PhotoImage(self.origin_level_image)
         self.origin_contents_opacity = Image.open("내용배경.png")
+        self.origin_rank1_weapon= Image.open(rank_weapons[0]["imgFancy"]).resize((147, 88))
+        self.rank1_weapon= ImageTk.PhotoImage(self.origin_rank1_weapon)
+        self.origin_rank2_weapon = Image.open(rank_weapons[1]["imgFancy"]).resize((73, 44))
+        self.rank2_weapon = ImageTk.PhotoImage(self.origin_rank2_weapon)
+        self.origin_rank3_weapon = Image.open(rank_weapons[2]["imgFancy"]).resize((73, 44))
+        self.rank3_weapon = ImageTk.PhotoImage(self.origin_rank3_weapon)
+        self.origin_rank1_vehicle = Image.open(rank_vehicles[0]["imgFancy"]).resize((147, 88))
+        self.rank1_vehicle = ImageTk.PhotoImage(self.origin_rank1_vehicle)
+        self.origin_rank2_vehicle = Image.open(rank_vehicles[1]["imgFancy"]).resize((73, 44))
+        self.rank2_vehicle = ImageTk.PhotoImage(self.origin_rank2_vehicle)
+        self.origin_rank3_vehicle = Image.open(rank_vehicles[2]["imgFancy"]).resize((73, 44))
+        self.rank3_vehicle = ImageTk.PhotoImage(self.origin_rank3_vehicle)
         self.contents_opacity = ImageTk.PhotoImage(self.origin_contents_opacity .resize((331, 215)))
         self.contents_opacity_1 = ImageTk.PhotoImage(self.origin_contents_opacity.resize((331, 93)))
         self.contents_opacity_2 = ImageTk.PhotoImage(self.origin_contents_opacity.resize((109, 60)))
@@ -63,12 +88,40 @@ class player_main:
         self.contents_opacity3_2 = ImageTk.PhotoImage(self.origin_contents_opacity.resize((80, 69)))
         self.orlgin_menu_bg = Image.open("메뉴배경.png")
         self.menu_bg = ImageTk.PhotoImage(self.orlgin_menu_bg.resize((331, 25)))
+        self.orlgin_gauge_bg = Image.open("게이지배경.png")
+        self.gauge_bg = ImageTk.PhotoImage(self.orlgin_gauge_bg.resize((160, 28)))
+        self.orlgin_gauge = Image.open("게이지.png")
+        self.gauge = [ImageTk.PhotoImage(self.orlgin_gauge.resize((150, 20))) for i in range(4)]
+        self.service_gauge_bg = ImageTk.PhotoImage(self.orlgin_gauge_bg.resize((160, 28)))
+        self.service_gauge = [ImageTk.PhotoImage(self.orlgin_gauge.resize((150, 20))) for i in range(5)]
+
+    def mode_star(self,star):
+        if star["id"]==1:
+            return star["score"]/21000
+        elif star["id"]==2:
+            return star["score"]/15000
+        elif star["id"]==2097152:
+            return star["score"]/16500
+        elif star["id"]==8388608:
+            return star["score"]/12000
+        elif star["id"]==8:
+            return star["score"]/6000
+        elif star["id"]==34359738368:
+            return star["score"]/10000
+
 
     def update(self):
         if self.skill<stats["skill"]:
-            self.skill+=10
-        else:
-            self.skill=stats["skill"]
+            self.skill+=stats["skill"]/10
+        for i in range(4):
+            if self.star_gauge[i]<(self.mode_star(rank_modes[i])*100)%100:
+                self.star_gauge[i] += ((self.mode_star(rank_modes[i])*100)%100)/10
+                self.gauge[i]=ImageTk.PhotoImage(self.orlgin_gauge.resize((int(1.5* self.star_gauge[i]), 20)))
+        for i in range(5):
+            if self.service_star_gauge[i]<(self.service_star[i]*100)%100:
+                self.service_star_gauge[i] += ((self.service_star[i]*100)%100)/10
+                self.service_gauge[i]=ImageTk.PhotoImage(self.orlgin_gauge.resize((int(1.5* self.service_star_gauge[i]), 20)))
+
     def draw(self,canvas):
 
         for j in range(3):
@@ -83,7 +136,7 @@ class player_main:
         canvas.create_image(465, 320, image=self.level_image, tag="grim")
         canvas.create_text(642, 218, text="스킬", font=("", 12, "bold"),anchor="nw", fill="ghost white", tag="grim")
         canvas.create_image(632, 240, image=self.contents_opacity_1, anchor="nw", tag="grim")
-        canvas.create_text(797, 275, text=str(self.skill), font=("", 40, "bold"), fill="ghost white", tag="grim")
+        canvas.create_text(797, 275, text=str(format(self.skill,".0f")), font=("", 40, "bold"), fill="ghost white", tag="grim")
         canvas.create_image(632, 334, image=self.contents_opacity_2, anchor="nw", tag="grim")
         canvas.create_text(687, 350, text="K/D", font=("", 10, "bold"),fill="gray", tag="grim")
         canvas.create_text(687, 375, text=str(round(stats['kills']/stats['deaths'],2)), font=("", 18, "bold"), fill="ghost white", tag="grim")
@@ -107,6 +160,10 @@ class player_main:
 
         canvas.create_text(310, 460, text="공로 스타", font=("", 12, "bold"),anchor="nw", fill="ghost white", tag="grim")
         canvas.create_image(300, 482, image=self.contents_opacity2, anchor="nw", tag="grim")
+        for i in range(5):
+            canvas.create_image(300, 482 + (32 * i), image=self.service_gauge_bg, anchor="nw", tag="grim")
+            canvas.create_image(300, 482, image=self.service_gauge[i], anchor="nw", tag="grim")
+            canvas.create_text(1184, 713, text="★ " + str(int(self.mode_star(rank_modes[i]))), font=("", 11, "bold"),anchor="nw", fill="ghost white", tag="grim")
         canvas.create_text(642, 460, text="팀플레이", font=("", 12, "bold"), anchor="nw",fill="ghost white", tag="grim")
         canvas.create_image(632, 482, image=self.contents_opacity2_1, anchor="nw", tag="grim")
         canvas.create_image(632, 597, image=self.contents_opacity2_2, anchor="nw", tag="grim")
@@ -117,14 +174,39 @@ class player_main:
 
         canvas.create_text(310, 681, text="최고 무기", font=("", 12, "bold"), anchor="nw",fill="ghost white", tag="grim")
         canvas.create_image(300, 703, image=self.contents_opacity3_1, anchor="nw", tag="grim")
+        canvas.create_image(425, 743, image=self.rank1_weapon,  tag="grim")
+        canvas.create_text(320, 785, text=rank_weapons[0]["name"], font=("", 10, "bold"), anchor="nw", fill="gray", tag="grim")
+        canvas.create_text(320, 805, text=str(rank_weapons[0]["stat"]["kills"])+" 사살", font=("", 13, "bold"), anchor="nw", fill="ghost white", tag="grim")
         canvas.create_image(551, 703, image=self.contents_opacity3_2, anchor="nw", tag="grim")
+        canvas.create_image(591, 728, image=self.rank2_weapon, tag="grim")
+        canvas.create_text(591, 758, text=str(rank_weapons[1]["stat"]["kills"]) + " 사살", font=("", 10, "bold"), fill="ghost white", tag="grim")
         canvas.create_image(551, 774, image=self.contents_opacity3_2, anchor="nw", tag="grim")
+        canvas.create_image(591, 799, image=self.rank3_weapon, tag="grim")
+        canvas.create_text(591, 829, text=str(rank_weapons[2]["stat"]["kills"]) + " 사살",  font=("", 10, "bold"), fill="ghost white", tag="grim")
+
         canvas.create_text(642, 681, text="최고 탑승장비", font=("", 12, "bold"),anchor="nw", fill="ghost white", tag="grim")
         canvas.create_image(632, 703, image=self.contents_opacity3_1, anchor="nw", tag="grim")
+        canvas.create_image(757, 743, image=self.rank1_vehicle, tag="grim")
+        canvas.create_text(652, 785, text=rank_vehicles[0]["name"], font=("", 10, "bold"), anchor="nw", fill="gray",tag="grim")
+        canvas.create_text(652, 805, text=str(rank_vehicles[0]["stat"]["kills"]) + " 사살", font=("", 13, "bold"),anchor="nw", fill="ghost white", tag="grim")
         canvas.create_image(883, 703, image=self.contents_opacity3_2, anchor="nw", tag="grim")
+        canvas.create_image(923, 728, image=self.rank2_vehicle, tag="grim")
+        canvas.create_text(923, 758, text=str(rank_vehicles[1]["stat"]["kills"]) + " 사살", font=("", 10, "bold"), fill="ghost white", tag="grim")
         canvas.create_image(883, 774, image=self.contents_opacity3_2, anchor="nw", tag="grim")
+        canvas.create_image(923, 799, image=self.rank3_vehicle, tag="grim")
+        canvas.create_text(923, 829, text=str(rank_vehicles[2]["stat"]["kills"]) + " 사살", font=("", 10, "bold"),fill="ghost white", tag="grim")
+
         canvas.create_text(974, 681, text="최고 게임 모드", font=("", 12, "bold"),anchor="nw", fill="ghost white", tag="grim")
         canvas.create_image(964, 703, image=self.contents_opacity3, anchor="nw", tag="grim")
+        for i in range(4):
+            canvas.create_text(984, 713+(33*i), text=rank_modes[i]["name"] , font=("", 10, "bold"),anchor="nw",fill="gray", tag="grim")
+            canvas.create_image(1119, 708+(32*i), image=self.gauge_bg, anchor="nw", tag="grim")
+            canvas.create_image(1121, 712+(32*i), image=self.gauge[i], anchor="nw", tag="grim")
+            canvas.create_text(1184, 713+(32*i), text="★ " + str(int(self.mode_star(rank_modes[i]))), font=("", 11, "bold"),anchor="nw", fill="ghost white",tag="grim")
+
+
+
+
 
 class bf4_main:
     def __init__(self):
@@ -144,8 +226,6 @@ class bf4_main:
         self.bgimage= ImageTk.PhotoImage(self.orlgin_bgimage.resize(( self.width, self.height)))
         self.originimage2 = Image.open("bf4.gg.png").resize((160, 32))
         self.logoImage = ImageTk.PhotoImage(self.originimage2)
-        #self.orlginOpacity = Image.open("opacity.png")
-        #self.opacityImage = ImageTk.PhotoImage(self.orlginOpacity.resize((1000, 700)))
         self.orlgin_logo_bg=Image.open("로고배경.png")
         self.logo_bg = ImageTk.PhotoImage(self.orlgin_logo_bg.resize((1600, 45)))
         self.orlgin_search_bg = Image.open("검색배경.png")
@@ -160,6 +240,7 @@ class bf4_main:
         self.menu_buttons[3].btext = "로드아웃"
         self.menu_buttons[4].btext = "과제"
         self.menu_buttons[5].btext = "포상"
+        self.menu_buttons[0].ckeck=2
         self.player_main=player_main()
 
         self.e1 = Entry(self.canvas, font=("", 13,) , width=25)
@@ -174,7 +255,7 @@ class bf4_main:
         self.b1.place(x=self.width / 2, y=self.height / 16)
 
         self.window.bind('<Motion>', self.motion)
-        self.delay = 15
+        self.delay = 10
         self.update()
         self.window.mainloop()
     def search(self):
@@ -201,7 +282,7 @@ class bf4_main:
 
         if ret:
             self.canvas.delete("grim")
-            self.photo = ImageTk.PhotoImage(image=Image.fromarray(frame).resize((1920, 1080)))
+            self.photo = ImageTk.PhotoImage(image=Image.fromarray(frame).resize((1600, 900)))
             self.canvas.create_image(0, 0, image = self.photo, anchor = NW,tag="grim")
 
             self.player_main.update()
@@ -297,5 +378,5 @@ class MyVideoCapture:
     def __del__(self):
         if self.vid.isOpened():
             self.vid.release()
-bf4=bf4_main()
+bf4_main()
 
