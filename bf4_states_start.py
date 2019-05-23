@@ -5,49 +5,41 @@ import cv2
 import time
 import tkinter.ttk
 
-online=requests.get("https://api.bf4stats.com/api/onlinePlayers?output=json").json()
 
-online_pc=online["pc"]
-online_ps4=online["ps4"]
-online_ps3=online["ps3"]
-online_xone=online["xone"]
-online_xbox=online["xbox"]
-online_total=online_pc["count"]+online_ps4["count"]+online_ps3["count"]+online_xbox["count"]+online_xone["count"]
 class App2:
     def __init__(self):
         self.window = Tk()
         self.window.title("bf4.gg")
         self.video_source = "bg-video.mp4"
-        self.originimage1 = Image.open("image/ranks/r140.png").resize((100, 100))
-        self.rankImage = ImageTk.PhotoImage(self.originimage1)
-        self.originimage2 = Image.open("bf4.gg.png").resize((400, 80))
+        self.originimage2 = Image.open("bf4.gg.png").resize((600, 120))
         self.logoImage = ImageTk.PhotoImage(self.originimage2)
         self.orlginOpacity = Image.open("opacity.png")
-        self.opacityImage = ImageTk.PhotoImage(self.orlginOpacity.resize((500, 200)))
+        self.opacityImage = ImageTk.PhotoImage(self.orlginOpacity.resize((600, 300)))
+        online = requests.get("https://api.bf4stats.com/api/onlinePlayers?output=json").json()
+        self.online_players = [online["pc"], online["ps4"],online["xone"],online["ps3"],online["xbox"]]
+        self.total_players=0
+        for i in range(5):
+            self.total_players+=self.online_players[i]["count"]
 
         self.count=0
-        # open video source (by default this will try to open the computer webcam)
         self.vid = MyVideoCapture(self.video_source)
-        # Create a canvas that can fit the above video source size
-        self.canvas = Canvas(self.window, width = 1920, height = 1080)
+        self.canvas = Canvas(self.window, width = 1600, height = 900)
         self.canvas.pack()
-        self.e1 = Entry(self.canvas,font=("",12),width = 30)
+        self.e1 = Entry(self.canvas,font=("",20),width = 20)
         self.e1.insert(0,"Player name")
-        self.e1.place(x=200, y=250)
-        self.b1 = Button(self.canvas,  text="검색",font=("",10), command=self.search,highlightbackground="black",width = 6, height = 1)
-        self.b1.place(x=550, y=250)
-        self.values = ["PC","PS4","XBOXONE","PS3","XBOX360"]
-        self.c1 = tkinter.ttk.Combobox(self.canvas, values=self.values,width=9,font=("",12))
-        self.c1.set("플랫폼")
-        self.c1.place(x=450, y=250)
-        # After it is called once, the update method will be automatically called every delay milliseconds
+        self.e1.place(x=500, y=400)
+        self.b1 = Button(self.canvas,  text="Search",font=("",14,"bold"),command=self.search,highlightbackground="black",width = 9,pady=0)
+        self.b1.place(x=1100, y=400,anchor="ne")
+        self.values = ["pc","ps4","xone","ps3","xbox"]
+        self.c1 = tkinter.ttk.Combobox(self.canvas, values=self.values,width=7,font=("",20))
+        self.c1.set("Platform")
+        self.c1.place(x=835, y=400)
         self.delay = 15
         self.update()
         self.window.mainloop()
-    def fpage(self):
-        self.canvas.create_image(0, 0, image = self.photo, anchor = NW)
+
     def search(self):
-        pass
+            pass
     def update(self):
         # Get a frame from the video source
         startTime = time.time()
@@ -55,36 +47,19 @@ class App2:
 
         if ret:
             self.canvas.delete("grim")
-            self.photo = ImageTk.PhotoImage(image=Image.fromarray(frame).resize((1920, 1080)))
+            self.photo = ImageTk.PhotoImage(image=Image.fromarray(frame).resize((1600, 900)))
             self.canvas.create_image(0, 0, image = self.photo, anchor = NW,tag="grim")
-            self.canvas.create_image(400, 400, image=self.opacityImage,tag="grim")
-            self.canvas.create_image(400, 180, image=self.logoImage,tag="grim")
-            self.canvas.create_text(400,340,text="현재 온라인 플레이어(총"+str(online_total)+"명)",font=("",12),fill="ghost white",tag="grim")
-            self.canvas.create_text(200, 370, text=online_pc["label"], font=("",12),fill="ghost white",tag="grim")
-            self.canvas.create_text(300, 370, text=online_ps4["label"], font=("",12), fill="ghost white",tag="grim")
-            self.canvas.create_text(400, 370, text=online_xone["label"], font=("",12), fill="ghost white",tag="grim")
-            self.canvas.create_text(500, 370, text=online_ps3["label"], font=("",12), fill="ghost white",tag="grim")
-            self.canvas.create_text(600, 370, text=online_xbox["label"], font=("",12), fill="ghost white",tag="grim")
+            self.canvas.create_image(800, 600, image=self.opacityImage,tag="grim")
+            self.canvas.create_image(800, 280, image=self.logoImage,tag="grim")
+            self.canvas.create_text(800,510,text="현재 온라인 플레이어(총"+str(self.total_players)+"명)",font=("",16),fill="ghost white",tag="grim")
+            for i in range(5):
+                self.canvas.create_text(600+(100*i), 555, text=self.online_players[i]["label"], font=("",16),fill="ghost white",tag="grim")
+                self.canvas.create_text(600+(100*i), 600, text=self.online_players[i]["count"], font=("", 19, "bold"), fill="ghost white",tag="grim")
+                self.canvas.create_text(600+(100*i), 645, text="최다 접속", font=("", 14), fill="ghost white", tag="grim")
+                self.canvas.create_text(600+(100*i), 675, text=self.online_players[i]["peak24"], font=("", 16), fill="ghost white", tag="grim")
 
-            self.canvas.create_text(200, 400, text=online_pc["count"], font=("",15,"bold"), fill="ghost white",tag="grim")
-            self.canvas.create_text(300, 400, text=online_ps4["count"], font=("",15,"bold"), fill="ghost white",tag="grim")
-            self.canvas.create_text(400, 400, text=online_xone["count"], font=("",15,"bold"), fill="ghost white",tag="grim")
-            self.canvas.create_text(500, 400, text=online_ps3["count"], font=("",15,"bold"), fill="ghost white",tag="grim")
-            self.canvas.create_text(600, 400, text=online_xbox["count"], font=("",15,"bold"), fill="ghost white",tag="grim")
-
-            self.canvas.create_text(200, 430, text="최다 접속", font=("", 10), fill="ghost white",tag="grim")
-            self.canvas.create_text(300, 430, text="최다 접속", font=("", 10), fill="ghost white",tag="grim")
-            self.canvas.create_text(400, 430, text="최다 접속", font=("", 10), fill="ghost white",tag="grim")
-            self.canvas.create_text(500, 430, text="최다 접속", font=("", 10), fill="ghost white",tag="grim")
-            self.canvas.create_text(600, 430, text="최다 접속", font=("", 10), fill="ghost white",tag="grim")
-
-            self.canvas.create_text(200, 450, text=online_pc["peak24"], font=("", 12), fill="ghost white",tag="grim")
-            self.canvas.create_text(300, 450, text=online_ps4["peak24"], font=("", 12), fill="ghost white",tag="grim")
-            self.canvas.create_text(400, 450, text=online_xone["peak24"], font=("", 12), fill="ghost white",tag="grim")
-            self.canvas.create_text(500, 450, text=online_ps3["peak24"], font=("", 12), fill="ghost white",tag="grim")
-            self.canvas.create_text(600, 450, text=online_xbox["peak24"], font=("", 12), fill="ghost white",tag="grim")
         endTime = time.time() - startTime
-        print(endTime)
+        #print(endTime)
         self.window.after(self.delay, self.update)
 
 

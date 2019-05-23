@@ -7,9 +7,11 @@ import tkinter.ttk
 from operator import  itemgetter
 
 online=requests.get("https://api.bf4stats.com/api/onlinePlayers?output=json").json()
-player_name="sharqia"
+player_name="cgears"
 player_plat="pc"
 player_data=requests.get("https://api.bf4stats.com/api/playerInfo?plat="+player_plat+"&name="+player_name+"&output=json").json()
+player_rank=requests.get("https://api.bf4stats.com/api/playerRankings?plat="+player_plat+"&name="+player_name+"&output=json").json()
+
 
 print(player_data.keys())
 player=player_data["player"]
@@ -49,5 +51,6 @@ print(dogtags.keys())
 
 print("upcomingUnlocks")
 
-print(kits.keys())
+print(player["rank"]["next"])
+
 
