@@ -4,8 +4,8 @@ from PIL import Image, ImageTk
 import cv2
 import time
 import tkinter.ttk
-
-
+from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg
+from matplotlib.figure import Figure
 class App2:
     def __init__(self):
         self.window = Tk()
@@ -21,7 +21,7 @@ class App2:
         for i in range(5):
             self.total_players+=self.online_players[i]["count"]
 
-        self.count=0
+
         self.vid = MyVideoCapture(self.video_source)
         self.canvas = Canvas(self.window, width = 1600, height = 900)
         self.canvas.pack()
@@ -34,10 +34,20 @@ class App2:
         self.c1 = tkinter.ttk.Combobox(self.canvas, values=self.values,width=7,font=("",20))
         self.c1.set("Platform")
         self.c1.place(x=835, y=400)
+
         self.delay = 15
         self.update()
         self.window.mainloop()
 
+        figure2 = Figure(figsize=(5, 4), dpi=100)
+        subplot2 = figure2.add_subplot(111)
+        labels2 = 'Label1', 'Label2', 'Label3'
+        pieSizes = [float(5.0), float(5.0), float(5.0)]
+        explode2 = (0, 0.1, 0)
+        subplot2.pie(pieSizes, explode=explode2, labels=labels2, autopct='%1.1f%%', shadow=True, startangle=90)
+        subplot2.axis('equal')
+        pie2 = FigureCanvasTkAgg(figure2, self.window)
+        pie2.get_tk_widget().place(x=0,y=0)
     def search(self):
             pass
     def update(self):

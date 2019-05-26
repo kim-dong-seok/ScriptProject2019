@@ -7,13 +7,12 @@ import tkinter.ttk
 from operator import  itemgetter
 
 online=requests.get("https://api.bf4stats.com/api/onlinePlayers?output=json").json()
-player_name="cgears"
+player_name="sharqia"
 player_plat="pc"
 player_data=requests.get("https://api.bf4stats.com/api/playerInfo?plat="+player_plat+"&name="+player_name+"&output=json").json()
 player_rank=requests.get("https://api.bf4stats.com/api/playerRankings?plat="+player_plat+"&name="+player_name+"&output=json").json()
 
-
-print(player_data.keys())
+player_ranking=player_rank["rankings"]
 player=player_data["player"]
 stats=player_data["stats"]
 dogtags=player_data["dogtags"]
@@ -26,12 +25,17 @@ awards=player_data["awards"]
 assignments=player_data["assignments"]
 upcomingUnlocks=player_data["upcomingUnlocks"]
 kits=stats["kits"]
+print(player_data.keys())
 print("플레이어")
 print(player.keys())
 print("통계")
 print(stats.keys())
-print("인식표")
-print(dogtags.keys())
+
+
+for i in player_ranking:
+
+        print(i)
+
 #Assault = 155.000
 #Engineer = 131.000
 #Support = 134.000
@@ -48,9 +52,3 @@ print(dogtags.keys())
 #공기우위12.000
 #CarrierAssault22.000
 #체인링크10.000
-
-print("upcomingUnlocks")
-
-print(player["rank"]["next"])
-
-
