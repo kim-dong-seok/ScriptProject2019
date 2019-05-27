@@ -27,6 +27,9 @@ class player_data:
             if self.player_ranking[i]["rank"] == None:
                 self.player_ranking[i]["rank"] = 100000
         self.sort_ranking = sorted(self.player_ranking, key=lambda t: t["rank"])
+        for i in range(len(self.player_ranking)):
+            if self.player_ranking[i]["rank"] == 100000:
+                self.player_ranking[i]["rank"] = 0
         self.sort_ranking1=self.sort_ranking[0]
         self.sort_ranking2 = self.sort_ranking[1]
         self.sort_ranking3 = self.sort_ranking[2]
@@ -36,6 +39,12 @@ class player_data:
         self.ranking3 = []
         self.ranking4 = []
         for i in self.player_ranking:
+            if i["rank"] == None:
+                i["rank"] = 0
+            if i["count"] == None:
+                i["count"] = 0
+            if i["value"] == None:
+                i["value"] = 0
             if i["group"] == "player":
                 self.ranking1.append(i)
             elif i["group"] == "kit":

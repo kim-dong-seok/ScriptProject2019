@@ -27,7 +27,7 @@ class bf4_main:
         self.up=0
         self.x=0
         self.y=0
-        self.player_data=player_data("sharqia","pc")
+        self.player_data=''
         self.player_name = " "
         self.scene=0
         self.b1ck=0
@@ -72,12 +72,8 @@ class bf4_main:
         self.menu_buttons[3].btext = "탑승장비"
         self.menu_buttons[4].btext = "랭킹"
         self.menu_buttons[0].ckeck=2
-        self.player_main=player_main(self.player_data)
-        self.start_page=start_page()
-        self.stats_data = stats_data(self.player_data)
-        self.weapon_page = weapon_page(self.player_data)
-        self.vehicle_page = Vehicle_page(self.player_data)
-        self.rank_page = rank_page(self.player_data)
+        self.start_page = start_page()
+
         self.window.bind('<MouseWheel>', self.wheel)
         self.window.bind('<Motion>', self.motion)
         self.delay = 10
@@ -120,9 +116,24 @@ class bf4_main:
             self.c1.place_forget()
             self.player_data=player_data( self.player_name, self.c1.get())
             self. player_main=player_main(self.player_data)
+            self.stats_data = stats_data(self.player_data)
+            self.weapon_page = weapon_page(self.player_data)
+            self.vehicle_page = Vehicle_page(self.player_data)
+            self.rank_page = rank_page(self.player_data)
+            self.c2.set("Platform")
             self.e2.place(x=300, y=self.height / 16)
             self.c2.place(x=470, y=self.height / 16)
             self.b2.place(x=565, y=self.height / 16)
+        else:
+            self.player_name = self.e2.get()
+            self.scene = 1
+            self.player_data = player_data(self.player_name, self.c2.get())
+            self.player_main = player_main(self.player_data)
+            self.stats_data = stats_data(self.player_data)
+            self.weapon_page = weapon_page(self.player_data)
+            self.vehicle_page = Vehicle_page(self.player_data)
+            self.rank_page = rank_page(self.player_data)
+            self.c2.set("Platform")
     def click(self,event):
         if self.menu_buttons[self.bcheck].ckeck==1:
             for i in range(5):

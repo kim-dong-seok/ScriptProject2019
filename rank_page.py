@@ -98,7 +98,7 @@ class rank_page:
                                font=("", 10, "bold"), anchor="nw", fill="white smoke",
                                tag="grim")
             canvas.create_text(494 + (i * 200), 515 ,
-                               text="{0:,}".format(self.ranking2[i ]["value"]),
+                               text="{0:,}".format(self.ranking2[i]["value"]),
                                font=("", 10, "bold"), anchor="ne", fill="white smoke",
                                tag="grim")
             canvas.create_text(340 + (i * 200), 540 ,

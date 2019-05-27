@@ -30,11 +30,18 @@ print("플레이어")
 print(player.keys())
 print("통계")
 print(stats.keys())
-
+ranking1=[]
+ranking2 = []
 
 for i in player_ranking:
+        if i["group"] == "weapon":
+                ranking1.append(i)
+        elif i["group"] == "vehicle":
+                ranking2.append(i)
+sort_ranking1 = sorted(ranking1, key=lambda t: t["ident"])
+for i in sort_ranking1:
 
-        print(i)
+        print("{0}".format(i["ident"]))
 
 #Assault = 155.000
 #Engineer = 131.000

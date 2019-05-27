@@ -3,930 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="e7b22301-e934-4875-92d3-517c6500626a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced0.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced0.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced1.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced10.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced10.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced100.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced100.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced101.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced101.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced102.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced102.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced103.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced103.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced104.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced104.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced105.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced105.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced106.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced106.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced107.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced107.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced108.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced108.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced109.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced109.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced11.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced11.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced110.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced110.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced111.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced111.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced112.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced112.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced113.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced113.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced114.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced114.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced115.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced115.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced116.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced116.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced117.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced117.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced118.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced118.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced119.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced119.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced12.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced12.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced120.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced120.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced121.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced121.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced122.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced122.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced123.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced123.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced124.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced124.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced125.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced125.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced126.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced126.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced127.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced127.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced128.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced128.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced129.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced129.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced13.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced13.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced130.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced130.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced131.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced131.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced132.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced132.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced133.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced133.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced134.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced134.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced135.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced135.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced136.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced136.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced137.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced137.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced138.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced138.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced139.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced139.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced14.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced14.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced140.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced140.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced141.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced141.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced142.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced142.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced143.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced143.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced144.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced144.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced145.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced145.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced146.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced146.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced147.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced147.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced148.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced148.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced149.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced149.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced15.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced15.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced150.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced150.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced151.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced151.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced152.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced152.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced153.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced153.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced154.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced154.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced155.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced155.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced156.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced156.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced157.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced157.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced158.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced158.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced159.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced159.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced16.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced16.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced160.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced160.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced161.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced161.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced162.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced162.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced163.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced163.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced164.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced164.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced165.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced165.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced166.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced166.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced167.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced167.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced168.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced168.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced169.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced169.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced17.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced17.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced170.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced170.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced171.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced171.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced172.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced172.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced173.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced173.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced174.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced174.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced175.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced175.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced176.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced176.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced177.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced177.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced178.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced178.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced179.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced179.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced18.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced18.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced180.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced180.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced181.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced181.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced182.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced182.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced183.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced183.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced184.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced184.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced185.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced185.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced186.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced186.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced187.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced187.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced188.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced188.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced189.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced189.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced19.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced19.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced190.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced190.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced191.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced191.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced192.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced192.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced193.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced193.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced194.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced194.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced195.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced195.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced196.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced196.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced197.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced197.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced198.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced198.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced199.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced199.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced2.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced20.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced20.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced200.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced200.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced201.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced201.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced202.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced202.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced203.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced203.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced204.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced204.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced205.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced205.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced206.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced206.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced207.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced207.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced208.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced208.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced209.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced209.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced21.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced21.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced210.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced210.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced211.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced211.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced212.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced212.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced213.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced213.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced214.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced214.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced215.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced215.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced216.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced216.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced217.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced217.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced218.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced218.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced219.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced219.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced22.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced22.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced220.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced220.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced221.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced221.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced222.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced222.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced223.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced223.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced224.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced224.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced225.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced225.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced226.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced226.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced227.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced227.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced228.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced228.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced229.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced229.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced23.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced23.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced230.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced230.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced231.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced231.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced232.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced232.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced233.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced233.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced234.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced234.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced235.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced235.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced236.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced236.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced237.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced237.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced238.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced238.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced239.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced239.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced24.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced24.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced240.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced240.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced241.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced241.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced242.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced242.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced243.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced243.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced244.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced244.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced245.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced245.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced246.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced246.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced247.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced247.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced248.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced248.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced249.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced249.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced25.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced25.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced250.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced250.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced251.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced251.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced252.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced252.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced253.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced253.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced254.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced254.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced255.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced255.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced256.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced256.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced257.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced257.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced258.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced258.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced259.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced259.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced26.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced26.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced260.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced260.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced261.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced261.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced262.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced262.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced263.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced263.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced264.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced264.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced265.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced265.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced266.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced266.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced267.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced267.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced268.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced268.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced269.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced269.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced27.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced27.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced270.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced270.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced271.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced271.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced272.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced272.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced273.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced273.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced274.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced274.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced275.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced275.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced276.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced276.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced277.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced277.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced278.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced278.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced279.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced279.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced28.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced28.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced280.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced280.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced281.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced281.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced282.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced282.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced283.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced283.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced284.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced284.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced285.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced285.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced286.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced286.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced287.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced287.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced288.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced288.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced289.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced289.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced29.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced29.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced290.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced290.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced291.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced291.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced292.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced292.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced293.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced293.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced294.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced294.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced295.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced295.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced296.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced296.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced297.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced297.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced298.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced298.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced299.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced299.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced3.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced3.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced30.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced30.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced300.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced300.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced301.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced301.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced302.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced302.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced303.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced303.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced304.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced304.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced305.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced305.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced306.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced306.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced307.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced307.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced308.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced308.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced309.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced309.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced31.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced31.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced310.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced310.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced311.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced311.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced312.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced312.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced313.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced313.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced314.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced314.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced315.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced315.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced316.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced316.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced317.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced317.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced318.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced318.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced319.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced319.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced32.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced32.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced320.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced320.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced321.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced321.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced322.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced322.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced323.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced323.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced324.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced324.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced325.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced325.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced326.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced326.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced327.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced327.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced328.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced328.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced329.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced329.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced33.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced33.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced330.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced330.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced331.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced331.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced332.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced332.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced333.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced333.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced334.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced334.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced335.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced335.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced336.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced336.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced337.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced337.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced338.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced338.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced339.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced339.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced34.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced34.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced340.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced340.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced341.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced341.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced342.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced342.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced343.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced343.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced344.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced344.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced345.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced345.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced346.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced346.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced347.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced347.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced348.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced348.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced349.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced349.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced35.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced35.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced350.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced350.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced351.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced351.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced352.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced352.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced353.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced353.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced354.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced354.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced355.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced355.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced356.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced356.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced357.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced357.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced358.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced358.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced359.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced359.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced36.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced36.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced360.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced360.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced361.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced361.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced362.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced362.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced363.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced363.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced364.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced364.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced365.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced365.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced366.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced366.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced367.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced367.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced368.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced368.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced369.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced369.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced37.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced37.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced370.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced370.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced371.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced371.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced372.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced372.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced373.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced373.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced374.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced374.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced375.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced375.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced376.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced376.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced377.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced377.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced378.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced378.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced379.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced379.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced38.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced38.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced380.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced380.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced381.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced381.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced382.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced382.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced383.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced383.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced384.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced384.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced385.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced385.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced386.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced386.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced387.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced387.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced388.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced388.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced389.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced389.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced39.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced39.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced390.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced390.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced391.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced391.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced392.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced392.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced393.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced393.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced394.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced394.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced395.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced395.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced396.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced396.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced397.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced397.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced398.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced398.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced399.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced399.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced4.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced4.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced40.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced40.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced400.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced400.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced401.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced401.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced402.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced402.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced403.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced403.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced404.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced404.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced405.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced405.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced406.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced406.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced407.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced407.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced408.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced408.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced409.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced409.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced41.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced41.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced410.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced410.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced411.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced411.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced412.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced412.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced413.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced413.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced414.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced414.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced415.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced415.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced416.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced416.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced417.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced417.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced418.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced418.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced419.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced419.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced42.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced42.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced420.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced420.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced421.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced421.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced422.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced422.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced423.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced423.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced424.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced424.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced425.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced425.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced426.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced426.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced427.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced427.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced428.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced428.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced429.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced429.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced43.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced43.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced430.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced430.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced431.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced431.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced44.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced44.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced45.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced45.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced46.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced46.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced47.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced47.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced48.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced48.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced49.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced49.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced5.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced5.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced50.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced50.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced51.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced51.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced52.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced52.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced53.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced53.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced54.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced54.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced55.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced55.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced56.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced56.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced57.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced57.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced58.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced58.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced59.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced59.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced6.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced6.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced60.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced60.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced61.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced61.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced62.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced62.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced63.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced63.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced64.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced64.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced65.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced65.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced66.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced66.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced67.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced67.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced68.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced68.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced69.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced69.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced7.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced7.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced70.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced70.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced71.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced71.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced72.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced72.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced73.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced73.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced74.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced74.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced75.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced75.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced76.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced76.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced77.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced77.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced78.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced78.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced79.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced79.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced8.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced8.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced80.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced80.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced81.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced81.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced82.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced82.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced83.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced83.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced84.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced84.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced85.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced85.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced86.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced86.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced87.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced87.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced88.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced88.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced89.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced89.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced9.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced9.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced90.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced90.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced91.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced91.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced92.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced92.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced93.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced93.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced94.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced94.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced95.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced95.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced96.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced96.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced97.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced97.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced98.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced98.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/advanced99.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/advanced99.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/basic0.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/basic0.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/basic1.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/basic1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/basic10.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/basic10.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/basic100.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/basic100.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/basic101.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/basic101.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/basic102.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/basic102.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/basic103.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/basic103.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/basic104.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/basic104.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/basic105.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/basic105.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/basic106.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/basic106.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/basic107.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/basic107.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/basic108.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/basic108.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/basic109.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/basic109.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/basic11.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/basic11.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/basic110.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/basic110.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/basic111.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/basic111.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/basic112.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/basic112.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/basic113.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/basic113.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/basic114.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/basic114.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/basic115.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/basic115.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/basic116.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/basic116.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/basic117.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/basic117.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/basic118.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/basic118.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/basic119.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/basic119.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/basic12.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/basic12.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/basic120.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/basic120.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/basic121.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/basic121.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/basic122.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/basic122.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/basic123.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/basic123.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/basic124.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/basic124.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/basic125.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/basic125.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/basic126.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/basic126.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/basic127.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/basic127.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/basic128.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/basic128.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/basic129.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/basic129.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/basic13.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/basic13.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/basic130.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/basic130.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/basic131.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/basic131.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/basic132.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/basic132.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/basic133.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/basic133.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/basic134.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/basic134.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/basic135.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/basic135.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/basic136.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/basic136.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/basic137.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/basic137.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/basic138.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/basic138.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/basic139.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/basic139.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/basic14.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/basic14.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/basic140.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/basic140.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/basic141.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/basic141.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/basic142.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/basic142.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/basic143.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/basic143.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/basic144.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/basic144.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/basic145.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/basic145.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/basic146.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/basic146.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/basic147.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/basic147.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/basic148.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/basic148.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/basic149.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/basic149.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/basic15.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/basic15.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/basic150.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/basic150.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/basic151.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/basic151.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/basic152.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/basic152.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/basic153.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/basic153.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/basic154.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/basic154.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/basic155.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/basic155.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/basic156.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/basic156.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/basic157.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/basic157.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/basic158.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/basic158.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/basic159.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/basic159.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/basic16.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/basic16.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/basic160.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/basic160.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/basic161.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/basic161.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/basic162.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/basic162.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/basic163.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/basic163.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/basic164.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/basic164.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/basic165.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/basic165.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/basic166.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/basic166.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/basic167.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/basic167.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/basic168.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/basic168.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/basic169.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/basic169.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/basic17.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/basic17.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/basic170.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/basic170.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/basic171.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/basic171.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/basic172.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/basic172.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/basic173.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/basic173.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/basic174.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/basic174.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/basic175.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/basic175.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/basic176.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/basic176.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/basic177.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/basic177.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/basic178.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/basic178.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/basic179.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/basic179.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/basic18.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/basic18.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/basic180.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/basic180.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/basic181.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/basic181.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/basic182.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/basic182.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/basic183.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/basic183.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/basic184.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/basic184.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/basic185.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/basic185.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/basic186.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/basic186.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/basic187.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/basic187.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/basic188.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/basic188.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/basic189.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/basic189.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/basic19.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/basic19.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/basic190.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/basic190.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/basic191.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/basic191.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/basic192.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/basic192.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/basic193.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/basic193.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/basic194.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/basic194.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/basic195.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/basic195.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/basic196.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/basic196.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/basic197.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/basic197.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/basic198.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/basic198.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/basic199.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/basic199.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/basic2.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/basic2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/basic20.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/basic20.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/basic200.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/basic200.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/basic201.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/basic201.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/basic202.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/basic202.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/basic203.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/basic203.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/basic204.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/basic204.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/basic205.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/basic205.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/basic206.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/basic206.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/basic207.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/basic207.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/basic208.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/basic208.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/basic209.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/basic209.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/basic21.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/basic21.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/basic210.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/basic210.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/basic211.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/basic211.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/basic212.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/basic212.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/basic213.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/basic213.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/basic214.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/basic214.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/basic215.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/basic215.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/basic216.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/basic216.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/basic217.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/basic217.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/basic218.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/basic218.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/basic219.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/basic219.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/basic22.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/basic22.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/basic220.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/basic220.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/basic221.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/basic221.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/basic222.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/basic222.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/basic223.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/basic223.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/basic224.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/basic224.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/basic225.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/basic225.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/basic226.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/basic226.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/basic227.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/basic227.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/basic228.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/basic228.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/basic229.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/basic229.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/basic23.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/basic23.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/basic230.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/basic230.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/basic231.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/basic231.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/basic232.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/basic232.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/basic233.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/basic233.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/basic234.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/basic234.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/basic235.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/basic235.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/basic236.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/basic236.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/basic237.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/basic237.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/basic238.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/basic238.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/basic239.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/basic239.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/basic24.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/basic24.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/basic240.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/basic240.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/basic241.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/basic241.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/basic242.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/basic242.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/basic243.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/basic243.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/basic244.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/basic244.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/basic245.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/basic245.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/basic246.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/basic246.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/basic247.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/basic247.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/basic248.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/basic248.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/basic249.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/basic249.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/basic25.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/basic25.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/basic250.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/basic250.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/basic251.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/basic251.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/basic252.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/basic252.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/basic253.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/basic253.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/basic254.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/basic254.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/basic255.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/basic255.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/basic256.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/basic256.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/basic257.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/basic257.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/basic258.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/basic258.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/basic259.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/basic259.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/basic26.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/basic26.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/basic260.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/basic260.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/basic261.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/basic261.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/basic262.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/basic262.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/basic263.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/basic263.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/basic264.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/basic264.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/basic265.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/basic265.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/basic266.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/basic266.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/basic267.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/basic267.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/basic268.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/basic268.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/basic269.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/basic269.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/basic27.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/basic27.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/basic270.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/basic270.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/basic271.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/basic271.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/basic272.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/basic272.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/basic273.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/basic273.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/basic274.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/basic274.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/basic275.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/basic275.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/basic276.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/basic276.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/basic277.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/basic277.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/basic278.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/basic278.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/basic279.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/basic279.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/basic28.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/basic28.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/basic280.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/basic280.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/basic281.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/basic281.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/basic282.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/basic282.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/basic283.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/basic283.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/basic284.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/basic284.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/basic285.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/basic285.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/basic286.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/basic286.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/basic287.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/basic287.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/basic29.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/basic29.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/basic3.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/basic3.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/basic30.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/basic30.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/basic31.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/basic31.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/basic32.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/basic32.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/basic33.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/basic33.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/basic34.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/basic34.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/basic35.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/basic35.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/basic36.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/basic36.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/basic37.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/basic37.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/basic38.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/basic38.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/basic39.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/basic39.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/basic4.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/basic4.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/basic40.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/basic40.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/basic41.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/basic41.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/basic42.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/basic42.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/basic43.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/basic43.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/basic44.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/basic44.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/basic45.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/basic45.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/basic46.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/basic46.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/basic47.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/basic47.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/basic48.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/basic48.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/basic49.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/basic49.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/basic5.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/basic5.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/basic50.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/basic50.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/basic51.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/basic51.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/basic52.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/basic52.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/basic53.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/basic53.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/basic54.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/basic54.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/basic55.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/basic55.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/basic56.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/basic56.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/basic57.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/basic57.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/basic58.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/basic58.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/basic59.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/basic59.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/basic6.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/basic6.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/basic60.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/basic60.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/basic61.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/basic61.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/basic62.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/basic62.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/basic63.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/basic63.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/basic64.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/basic64.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/basic65.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/basic65.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/basic66.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/basic66.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/basic67.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/basic67.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/basic68.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/basic68.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/basic69.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/basic69.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/basic7.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/basic7.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/basic70.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/basic70.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/basic71.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/basic71.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/basic72.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/basic72.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/basic73.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/basic73.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/basic74.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/basic74.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/basic75.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/basic75.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/basic76.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/basic76.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/basic77.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/basic77.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/basic78.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/basic78.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/basic79.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/basic79.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/basic8.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/basic8.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/basic80.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/basic80.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/basic81.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/basic81.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/basic82.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/basic82.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/basic83.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/basic83.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/basic84.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/basic84.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/basic85.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/basic85.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/basic86.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/basic86.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/basic87.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/basic87.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/basic88.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/basic88.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/basic89.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/basic89.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/basic9.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/basic9.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/basic90.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/basic90.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/basic91.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/basic91.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/basic92.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/basic92.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/basic93.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/basic93.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/basic94.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/basic94.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/basic95.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/basic95.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/basic96.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/basic96.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/basic97.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/basic97.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/basic98.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/basic98.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/dogtags/basic99.png" beforeDir="false" afterPath="$PROJECT_DIR$/bf4/dogtags/basic99.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/kititems_lineart/repairtool.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/lbicons/KillDeath.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/lbicons/Longrange.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/lbicons/WinLose.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/stars/servicestar-20x20.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/vehicles_fancy/m1a2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/vehicles_fancy/t90.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/vehicles_fancy/type95aa.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/vehicles_fancy/type99mbt.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/vehicles_lineart/a10.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/vehicles_lineart/aamine.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/vehicles_lineart/aav.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/vehicles_lineart/ac130.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/vehicles_lineart/ah1z.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/vehicles_lineart/ah6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/vehicles_lineart/btr90.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/vehicles_lineart/dv15.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/vehicles_lineart/eodbot.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/vehicles_lineart/growler.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/vehicles_lineart/gunshield.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/vehicles_lineart/h6k.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/vehicles_lineart/himars.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/vehicles_lineart/hj8.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/vehicles_lineart/ht95.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/vehicles_lineart/j20.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/vehicles_lineart/ka60.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/vehicles_lineart/kornet.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/vehicles_lineart/ld-2000.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/vehicles_lineart/m1a2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/vehicles_lineart/m224_mortar.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/vehicles_lineart/mi28.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/vehicles_lineart/mrap-cougar.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/vehicles_lineart/oldcannon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/vehicles_lineart/pantsir.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/vehicles_lineart/pod.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/vehicles_lineart/pwc-jetski.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/vehicles_lineart/q5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/vehicles_lineart/quadbike.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/vehicles_lineart/rcb90.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/vehicles_lineart/rhib.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/vehicles_lineart/sc42.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/vehicles_lineart/skidloader.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/vehicles_lineart/spm3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/vehicles_lineart/su25.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/vehicles_lineart/su50-t50pak.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/vehicles_lineart/t90.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/vehicles_lineart/tow.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/vehicles_lineart/tunguska.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/vehicles_lineart/type95aa.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/vehicles_lineart/type99mbt.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/vehicles_lineart/vdv.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/vehicles_lineart/venom.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/vehicles_lineart/xd1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/vehicles_lineart/z10w.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/vehicles_lineart/z11.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/vehicles_lineart/z9-haitun.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/vehicles_lineart/zbd09.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/vehicles_lineart/zfb05.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/weapons_fancy/aek971.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/weapons_fancy/dao12.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/weapons_fancy/railgun.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/weapons_lineart/a91.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/weapons_lineart/aamine.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/weapons_lineart/acwr.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/weapons_lineart/aek971.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/weapons_lineart/ak12.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/weapons_lineart/ak5c.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/weapons_lineart/aku12.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/weapons_lineart/amr_cqb.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/weapons_lineart/amr_far.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/weapons_lineart/amr_med.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/weapons_lineart/an94.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/weapons_lineart/asval.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/weapons_lineart/at_mine.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/weapons_lineart/c4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/weapons_lineart/cbjms.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/weapons_lineart/claymore.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/weapons_lineart/cslr4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/weapons_lineart/cz75.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/weapons_lineart/cz805.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/weapons_lineart/dao12.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/weapons_lineart/dbv12.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/weapons_lineart/defib.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/weapons_lineart/deserteagle.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/weapons_lineart/eodbot.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/weapons_lineart/fgm148_javelin.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/weapons_lineart/fgm172_sraw.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/weapons_lineart/fim92_stinger.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/weapons_lineart/fyjs.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/weapons_lineart/galil_ace21cqb.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/weapons_lineart/galil_ace23.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/weapons_lineart/galil_ace52cqb.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/weapons_lineart/galil_ace53sv.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/weapons_lineart/glock18.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/weapons_lineart/gol.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/weapons_lineart/groza1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/weapons_lineart/groza4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/weapons_lineart/handflare.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/weapons_lineart/hawk12g.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/weapons_lineart/hk45c.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/weapons_lineart/hvm_starstreak.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/weapons_lineart/jng90.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/weapons_lineart/knife.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/weapons_lineart/knife_2142knife.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/weapons_lineart/knife_bootknife.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/weapons_lineart/knife_bowie.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/weapons_lineart/knife_carbon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/weapons_lineart/knife_combat_acb90.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/weapons_lineart/knife_diverknife.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/weapons_lineart/knife_improvised.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/weapons_lineart/knife_neckknife.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/weapons_lineart/knife_precisionknife.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/weapons_lineart/knife_scout.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/weapons_lineart/knife_sealknife.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/weapons_lineart/knife_survival.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/weapons_lineart/knife_tactical2knife.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/weapons_lineart/knife_tanto.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/weapons_lineart/knife_trench.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/weapons_lineart/knife_weaver.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/weapons_lineart/l86a1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/weapons_lineart/l96a1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/weapons_lineart/m136.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/weapons_lineart/m18_smoke.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/weapons_lineart/m200_srr61.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/weapons_lineart/m224_mortar.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/weapons_lineart/m240.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/weapons_lineart/m26mass.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/weapons_lineart/m26mass_flc.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/weapons_lineart/m26mass_frg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/weapons_lineart/m26mass_sg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/weapons_lineart/m2_slam.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/weapons_lineart/m320.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/weapons_lineart/m320_3gl.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/weapons_lineart/m320_flash.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/weapons_lineart/m320_lvg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/weapons_lineart/m320_sg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/weapons_lineart/m320_smk.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/weapons_lineart/m34_incendiary.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/weapons_lineart/m39.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/weapons_lineart/m4a1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/weapons_lineart/m60e4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/weapons_lineart/m67_grenade.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/weapons_lineart/m82a3_cqb.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/weapons_lineart/m82a3_far.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/weapons_lineart/m82a3_med.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/weapons_lineart/m84_flashbang.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/weapons_lineart/m93r.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/weapons_lineart/magpulpdr.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/weapons_lineart/mbt_law.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/weapons_lineart/mgl.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/weapons_lineart/mk11.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/weapons_lineart/mk153_smaw.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/weapons_lineart/mp412rex.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/weapons_lineart/mp443_grach.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/weapons_lineart/mtar21.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/weapons_lineart/pecheneg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/weapons_lineart/pp2000.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/weapons_lineart/qbb95.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/weapons_lineart/qbs09.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/weapons_lineart/qbu88.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/weapons_lineart/qbz951.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/weapons_lineart/railgun.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/weapons_lineart/remington870.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/weapons_lineart/repairtool.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/weapons_lineart/rgo_impact.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/weapons_lineart/rpg7.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/weapons_lineart/rpk12.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/weapons_lineart/rpk74.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/weapons_lineart/sa18_igla.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/weapons_lineart/saddlegun.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/weapons_lineart/saiga12.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/weapons_lineart/sar21.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/weapons_lineart/scarh.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/weapons_lineart/scarhsv.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/weapons_lineart/scorpion.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/weapons_lineart/scoutelite.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/weapons_lineart/sg553lb.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/weapons_lineart/sh.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/weapons_lineart/shield.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/weapons_lineart/shorty12g.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/weapons_lineart/spas12.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/weapons_lineart/sr2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/weapons_lineart/srs_338recon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/weapons_lineart/steyraug.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/weapons_lineart/sv98.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/weapons_lineart/svd12.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/weapons_lineart/taurus44.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/weapons_lineart/type88.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/weapons_lineart/type95b1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/weapons_lineart/ultimax.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/weapons_lineart/ump.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/weapons_lineart/ump9.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/weapons_lineart/unica6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/weapons_lineart/usas12_bp.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/weapons_lineart/usas12_nv.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/weapons_lineart/utas.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/weapons_lineart/v40_mini.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/weapons_lineart/xm25.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/weapons_lineart/xm25_flc.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4/weapons_lineart/xm25_smk.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4_states.py" beforeDir="false" afterPath="$PROJECT_DIR$/bf4_states.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bf4_states_main.py" beforeDir="false" afterPath="$PROJECT_DIR$/bf4_states_main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bf4_states_start.py" beforeDir="false" afterPath="$PROJECT_DIR$/bf4_states_start.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bf4data.py" beforeDir="false" afterPath="$PROJECT_DIR$/bf4data.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/player_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/player_data.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rank_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/rank_page.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -938,50 +18,50 @@
     <session id="-1003152973">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="17" />
+          <entry key="project.closed" value="18" />
           <entry key="project.open.time.0" value="3" />
           <entry key="project.open.time.1" value="2" />
           <entry key="project.open.time.4" value="7" />
-          <entry key="project.open.time.5" value="5" />
+          <entry key="project.open.time.5" value="6" />
           <entry key="project.open.time.6" value="1" />
-          <entry key="project.opened" value="18" />
+          <entry key="project.opened" value="19" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="jpg" value="9" />
-          <entry key="py" value="37" />
+          <entry key="py" value="39" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Image" value="9" />
-          <entry key="Python" value="37" />
+          <entry key="Python" value="39" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="20912" />
+          <entry key="py" value="21140" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="20912" />
+          <entry key="Python" value="21140" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/bf4_states_main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="496">
-              <caret line="31" column="20" selection-start-line="31" selection-start-column="20" selection-end-line="31" selection-end-column="20" />
+            <state relative-caret-position="-1584">
+              <caret line="129" column="68" selection-start-line="129" selection-start-column="68" selection-end-line="129" selection-end-column="68" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
-                <marker date="1558876236841" expanded="true" signature="238:239" ph="..." />
-                <marker date="1558876236841" expanded="true" signature="339:340" ph="..." />
+                <marker date="1558943107364" expanded="true" signature="238:239" ph="..." />
+                <marker date="1558943107364" expanded="true" signature="339:340" ph="..." />
               </folding>
             </state>
           </provider>
@@ -990,8 +70,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/rank_page.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1152">
-              <caret line="3" column="18" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
+            <state relative-caret-position="1360">
+              <caret line="100" selection-start-line="100" selection-end-line="100" />
               <folding>
                 <element signature="e#1#22#0" expanded="true" />
               </folding>
@@ -1002,8 +82,33 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/player_data.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="703">
-              <caret line="45" column="39" selection-start-line="45" selection-start-column="39" selection-end-line="45" selection-end-column="39" />
+            <state relative-caret-position="267">
+              <caret line="30" column="54" selection-start-line="30" selection-start-column="54" selection-end-line="30" selection-end-column="54" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/bf4data.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="463">
+              <caret line="52" column="9" lean-forward="true" selection-start-line="52" selection-start-column="9" selection-end-line="52" selection-end-column="9" />
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bf4_states_start.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="503">
+              <caret line="74" selection-start-line="74" selection-end-line="74" />
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
+                <marker date="1558768038276" expanded="true" signature="2212:2234" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -1023,7 +128,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/weapons_page.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-992">
+            <state relative-caret-position="176">
               <caret line="13" column="16" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
               <folding>
                 <element signature="e#2#23#0" expanded="true" />
@@ -1035,7 +140,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/stats_data.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="368">
+            <state relative-caret-position="736">
               <caret line="47" column="61" selection-start-line="47" selection-start-column="61" selection-end-line="47" selection-end-column="61" />
               <folding>
                 <element signature="e#0#21#0" expanded="true" />
@@ -1047,7 +152,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/start_page.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="48">
+            <state relative-caret-position="16">
               <caret line="3" selection-start-line="3" selection-end-line="3" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
@@ -1059,8 +164,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/player_main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-176">
-              <caret line="226" column="33" lean-forward="true" selection-start-line="226" selection-start-column="33" selection-end-line="226" selection-end-column="33" />
+            <state relative-caret-position="351">
+              <caret line="142" column="4" selection-start-line="142" selection-start-column="4" selection-end-line="142" selection-end-column="4" />
               <folding>
                 <element signature="e#0#21#0" expanded="true" />
               </folding>
@@ -1079,8 +184,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>mod</find>
-      <find>star</find>
       <find>pla</find>
       <find>player_data</find>
       <find>print</find>
@@ -1109,6 +212,8 @@
       <find>mouse_check</find>
       <find>sce</find>
       <find>click</find>
+      <find>ranking</find>
+      <find>sort_ranking1</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -1123,20 +228,20 @@
         <option value="$PROJECT_DIR$/start_page.py" />
         <option value="$PROJECT_DIR$/weapons_page.py" />
         <option value="$PROJECT_DIR$/vehicle_page.py" />
-        <option value="$PROJECT_DIR$/bf4data.py" />
-        <option value="$PROJECT_DIR$/player_data.py" />
         <option value="$PROJECT_DIR$/stats_data.py" />
-        <option value="$PROJECT_DIR$/rank_page.py" />
         <option value="$PROJECT_DIR$/player_main.py" />
+        <option value="$PROJECT_DIR$/rank_page.py" />
         <option value="$PROJECT_DIR$/bf4_states_main.py" />
+        <option value="$PROJECT_DIR$/player_data.py" />
+        <option value="$PROJECT_DIR$/bf4data.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="x" value="194" />
-    <option name="y" value="48" />
+    <option name="y" value="46" />
     <option name="width" value="1283" />
-    <option name="height" value="876" />
+    <option name="height" value="878" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -1173,7 +278,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.bf4_states_main">
+  <component name="RunManager" selected="Python.bf4data">
     <configuration name="크로울링" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="ScriptProject2019" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -1309,7 +414,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="194" y="48" width="1283" height="876" extended-state="1" />
+    <frame x="194" y="46" width="1283" height="878" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23756906" />
@@ -1317,7 +422,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32979852" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49875313" visible="true" weight="0.26474443" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49875313" weight="0.8405229" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39632547" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1391,9 +496,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
           <caret line="10" column="54" selection-start-line="10" selection-start-column="54" selection-end-line="10" selection-end-column="54" />
-          <folding>
-            <element signature="e#0#29#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1425,17 +527,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bf4_states_start.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="503">
-          <caret line="74" selection-start-line="74" selection-end-line="74" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-            <marker date="1558768038276" expanded="true" signature="2212:2234" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://C:/Python37/Lib/site-packages/PIL/Image.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
@@ -1443,19 +534,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bf4data.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="718">
-          <caret line="54" lean-forward="true" selection-start-line="54" selection-end-line="54" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/weapons_page.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-992">
+        <state relative-caret-position="176">
           <caret line="13" column="16" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
           <folding>
             <element signature="e#2#23#0" expanded="true" />
@@ -1465,7 +546,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/stats_data.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
+        <state relative-caret-position="736">
           <caret line="47" column="61" selection-start-line="47" selection-start-column="61" selection-end-line="47" selection-end-column="61" />
           <folding>
             <element signature="e#0#21#0" expanded="true" />
@@ -1475,7 +556,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/start_page.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
+        <state relative-caret-position="16">
           <caret line="3" selection-start-line="3" selection-end-line="3" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
@@ -1483,10 +564,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/player_data.py">
+    <entry file="file://$PROJECT_DIR$/bf4_states_start.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="703">
-          <caret line="45" column="39" selection-start-line="45" selection-start-column="39" selection-end-line="45" selection-end-column="39" />
+        <state relative-caret-position="503">
+          <caret line="74" selection-start-line="74" selection-end-line="74" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+            <marker date="1558768038276" expanded="true" signature="2212:2234" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1500,10 +585,22 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/bf4_states_main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1584">
+          <caret line="129" column="68" selection-start-line="129" selection-start-column="68" selection-end-line="129" selection-end-column="68" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+            <marker date="1558943107364" expanded="true" signature="238:239" ph="..." />
+            <marker date="1558943107364" expanded="true" signature="339:340" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/rank_page.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1152">
-          <caret line="3" column="18" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
+        <state relative-caret-position="1360">
+          <caret line="100" selection-start-line="100" selection-end-line="100" />
           <folding>
             <element signature="e#1#22#0" expanded="true" />
           </folding>
@@ -1512,22 +609,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/player_main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-176">
-          <caret line="226" column="33" lean-forward="true" selection-start-line="226" selection-start-column="33" selection-end-line="226" selection-end-column="33" />
+        <state relative-caret-position="351">
+          <caret line="142" column="4" selection-start-line="142" selection-start-column="4" selection-end-line="142" selection-end-column="4" />
           <folding>
             <element signature="e#0#21#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bf4_states_main.py">
+    <entry file="file://$PROJECT_DIR$/player_data.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="496">
-          <caret line="31" column="20" selection-start-line="31" selection-start-column="20" selection-end-line="31" selection-end-column="20" />
+        <state relative-caret-position="267">
+          <caret line="30" column="54" selection-start-line="30" selection-start-column="54" selection-end-line="30" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bf4data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="463">
+          <caret line="52" column="9" lean-forward="true" selection-start-line="52" selection-start-column="9" selection-end-line="52" selection-end-column="9" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
-            <marker date="1558876236841" expanded="true" signature="238:239" ph="..." />
-            <marker date="1558876236841" expanded="true" signature="339:340" ph="..." />
           </folding>
         </state>
       </provider>
