@@ -4,7 +4,8 @@ from PIL import Image, ImageTk
 import tkinter.ttk
 import cv2
 import time
-
+from PIL import ImageGrab
+import re
 from bs4 import  BeautifulSoup
 import urllib.request
 from stats_data import*
@@ -20,13 +21,21 @@ class bf4_main:
     def __init__(self):
         self.window = Tk()
         self.window.title("bf4.gg")
+        self.window.geometry("1600x900+100+50")
+
         self.video_source = "bg-video.mp4"
         self.vid = MyVideoCapture(self.video_source)
         self.width=1600
         self.height=900
+        self.iscapture=0
+        self.isdrag=0
         self.up=0
         self.x=0
         self.y=0
+        self.ox=0
+        self.oy=0
+        self.nx=0
+        self.ny=0
         self.player_data=''
         self.player_name = " "
         self.scene=0
@@ -79,6 +88,55 @@ class bf4_main:
         self.delay = 10
         self.update()
         self.window.mainloop()
+    def capture_state(self,event):
+
+            if self.iscapture==0:
+                self.iscapture=1
+            else:
+                self.iscapture=0
+                self.nx=0
+                self.ny=0
+                self.ox=0
+                self.oy=0
+
+    def parsegeometry(self,geometry):
+        m = re.match("(\d+)x(\d+)([-+]\d+)([-+]\d+)", geometry)
+        if not m:
+            raise ValueError("failed to parse geometry string")
+        return list(map(int, m.groups()))
+    def capture(self,event):
+        position=self.parsegeometry(self.window.geometry())
+        print(self.window.geometry())
+        img = ImageGrab.grab(bbox=(self.ox+position[2]+9, self.oy+position[3]+32, self.nx+position[2]+8, self.ny+position[3]+30))
+        img.save("screenImage1.jpg")
+
+        self.iscapture = 0
+    def capture_mode(self):
+            self.window.bind('<Button-1>', self.drag)
+            self.window.bind('<B1-Motion>', self.drag_move)
+            self.window.bind('<ButtonRelease-1>', self.drag_up)
+            print("ox={0} oy={1} nx={2} ny={3}".format(self.ox,self.oy,self.nx,self.ny))
+
+            self.window.bind('<F8>', self.capture)
+
+
+
+    def drag(self, event):
+        if self.isdrag==0:
+            print(self.window.geometry())
+            self.nx = 0
+            self.ny = 0
+            self.ox = 0
+            self.oy = 0
+            self.ox, self.oy = event.x, event.y
+            self.nx, self.ny = event.x, event.y
+            self.isdrag=1
+
+    def drag_move(self, event):
+        self.nx, self.ny = event.x, event.y
+    def drag_up(self, event):
+        if self.isdrag == 1:
+            self.isdrag = 0
     def wheel(self,event):
         if self.scene == 3:
             if self.weapon_page.count >= 0 and self.weapon_page.count <= 166:
@@ -151,9 +209,11 @@ class bf4_main:
             self.menu_buttons[self.player_main.mouse_count].ckeck = 2
             self.scene = self.player_main.mouse_count + 1
     def motion(self,event):
-        if self.scene!=0:
-            self.x,self.y=event.x,event.y
-            self.mause_update()
+        if self.iscapture==0:
+            if self.scene!=0:
+                self.x,self.y=event.x,event.y
+                self.mause_update()
+
     def mause_update(self):
         if self.scene!=0:
             for i in range(5):
@@ -176,7 +236,9 @@ class bf4_main:
                     self.window.bind('<Button-1>', self.vehicle_page.sort)
     def update(self):
         ret, frame = self.vid.get_frame()
-
+        self.window.bind('<F7>',self.capture_state)
+        if self.iscapture==1:
+            self.capture_mode()
         if ret:
             self.canvas.delete("grim")
             self.photo = ImageTk.PhotoImage(image=Image.fromarray(frame).resize((1600, 900)))
@@ -215,6 +277,9 @@ class bf4_main:
                 self.vehicle_page.draw(self.canvas)
             elif self.scene==5:
                 self.rank_page.draw(self.canvas)
+
+        if self.iscapture==1:
+            self.canvas.create_rectangle(self.ox, self.oy, self.nx, self.ny, outline="red")
 class menu_button:
     orlgin_menu_bg=None
     orlgin_gradient_bg = None
