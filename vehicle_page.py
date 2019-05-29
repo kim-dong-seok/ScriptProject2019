@@ -18,11 +18,11 @@ class Vehicle_page:
         self.sort_kill= player_data.rank_vehicles
         self.menu_kans=[0,81,452,633,814]
         self.menu_cantents=["# ▼","탑승장비","사살","분당 사살","차량 파괴"]
-        self.origin_contents_opacity = Image.open("내용배경.png")
+        self.origin_contents_opacity = Image.open("ui_image/내용배경.png")
         self.contents_opacity1 = ImageTk.PhotoImage(self.origin_contents_opacity.resize((80, 80)))
         self.contents_opacity2 = ImageTk.PhotoImage(self.origin_contents_opacity.resize((370, 80)))
         self.contents_opacity3 = ImageTk.PhotoImage(self.origin_contents_opacity.resize((180, 80)))
-        self.orlgin_menu_bg = Image.open("메뉴배경.png")
+        self.orlgin_menu_bg = Image.open("ui_image/메뉴배경.png")
         self.menu_bg1 = ImageTk.PhotoImage(self.orlgin_menu_bg.resize((80, 20)))
         self.menu_bg2= ImageTk.PhotoImage(self.orlgin_menu_bg.resize((370, 20)))
         self.menu_bg3= ImageTk.PhotoImage(self.orlgin_menu_bg.resize((180, 20)))

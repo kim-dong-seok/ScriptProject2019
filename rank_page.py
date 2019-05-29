@@ -43,10 +43,10 @@ class rank_page:
         self.cantents4 = ["수리 도구", "제세동기", "구급상자", "무선 신호기", "T-UGS", "SOFLAM",
                           "MAV", "탄약상자", "MP_APS"]
 
-        self.orlgin_menu_bg = Image.open("메뉴배경.png")
+        self.orlgin_menu_bg = Image.open("ui_image/메뉴배경.png")
         self.menu_bg1 = ImageTk.PhotoImage(self.orlgin_menu_bg.resize((1000, 25)))
 
-        self.origin_contents_opacity = Image.open("내용배경.png")
+        self.origin_contents_opacity = Image.open("ui_image/내용배경.png")
         self.contents_opacity1 = ImageTk.PhotoImage(self.origin_contents_opacity.resize((199, 48)))
 
 

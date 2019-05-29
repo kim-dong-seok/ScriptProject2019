@@ -2,8 +2,38 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e7b22301-e934-4875-92d3-517c6500626a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2015182005_김동석_중간발표.pptx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Battlefield_4_logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bf4.gg.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/bf4_states_main.py" beforeDir="false" afterPath="$PROJECT_DIR$/bf4_states_main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bf4_states_start.py" beforeDir="false" afterPath="$PROJECT_DIR$/bf4_states_start.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bg-video.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bg-video2.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bg-video3.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frame-03-05-2019-11-25-13.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frame-03-05-2019-11-25-14.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frame-03-05-2019-11-25-15.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frame-03-05-2019-11-25-16.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frame-03-05-2019-11-25-18.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/opacity.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/player_main.py" beforeDir="false" afterPath="$PROJECT_DIR$/player_main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rank_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/rank_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/start_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/start_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stats_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/stats_data.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vehicle_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/vehicle_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/weapons_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/weapons_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/검색배경.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/게이지.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/게이지배경.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/구분선.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/그라데이션.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/내용배경.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/로고배경.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/메뉴배경.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/원채우기.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/크로울링.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/클릭시.png" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,35 +45,35 @@
     <session id="-1003152973">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="21" />
+          <entry key="project.closed" value="22" />
           <entry key="project.open.time.0" value="3" />
           <entry key="project.open.time.1" value="2" />
-          <entry key="project.open.time.4" value="7" />
+          <entry key="project.open.time.4" value="8" />
           <entry key="project.open.time.5" value="7" />
           <entry key="project.open.time.6" value="2" />
-          <entry key="project.opened" value="21" />
+          <entry key="project.opened" value="22" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="jpg" value="9" />
-          <entry key="py" value="39" />
+          <entry key="jpg" value="10" />
+          <entry key="py" value="52" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Image" value="9" />
-          <entry key="Python" value="39" />
+          <entry key="Image" value="10" />
+          <entry key="Python" value="52" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="21934" />
+          <entry key="py" value="22137" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="21934" />
+          <entry key="Python" value="22137" />
         </counts>
       </usages-collector>
     </session>
@@ -53,59 +83,13 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/bf4_states_main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="210" column="27" lean-forward="true" selection-start-line="210" selection-start-column="27" selection-end-line="210" selection-end-column="27" />
+            <state relative-caret-position="400">
+              <caret line="76" column="65" selection-start-line="76" selection-start-column="65" selection-end-line="76" selection-end-column="65" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
-                <marker date="1559136433020" expanded="true" signature="273:274" ph="..." />
-                <marker date="1559136433020" expanded="true" signature="374:375" ph="..." />
-                <marker date="1559136433020" expanded="true" signature="4129:4134" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/rank_page.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1568">
-              <caret line="100" selection-start-line="100" selection-end-line="100" />
-              <folding>
-                <element signature="e#1#22#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/player_data.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="30" column="54" selection-start-line="30" selection-start-column="54" selection-end-line="30" selection-end-column="54" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bf4data.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="736">
-              <caret line="52" column="9" selection-start-line="52" selection-start-column="9" selection-end-line="52" selection-end-column="9" />
-              <folding>
-                <element signature="e#0#15#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bf4_states_start.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1072">
-              <caret line="74" selection-start-line="74" selection-end-line="74" />
-              <folding>
-                <element signature="e#0#15#0" expanded="true" />
-                <marker date="1558768038276" expanded="true" signature="2212:2234" ph="..." />
+                <marker date="1559139376011" expanded="true" signature="273:274" ph="..." />
+                <marker date="1559139376011" expanded="true" signature="374:375" ph="..." />
+                <marker date="1559139376011" expanded="true" signature="4428:4433" ph="..." />
               </folding>
             </state>
           </provider>
@@ -114,8 +98,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/vehicle_page.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="368">
-              <caret line="25" column="77" selection-start-line="25" selection-start-column="77" selection-end-line="25" selection-end-column="77" />
+            <state relative-caret-position="-992">
+              <caret line="28" column="39" selection-start-line="28" selection-start-column="39" selection-end-line="28" selection-end-column="39" />
               <folding>
                 <element signature="e#0#21#0" expanded="true" />
               </folding>
@@ -126,8 +110,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/weapons_page.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="13" column="16" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
+            <state relative-caret-position="-112">
+              <caret line="28" column="51" selection-start-line="28" selection-start-column="51" selection-end-line="28" selection-end-column="51" />
               <folding>
                 <element signature="e#2#23#0" expanded="true" />
               </folding>
@@ -136,10 +120,31 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://C:/Python37/Lib/site-packages/PIL/Image.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="154">
+              <caret line="2651" selection-start-line="2651" selection-end-line="2651" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/stats_data.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="736">
-              <caret line="47" column="61" selection-start-line="47" selection-start-column="61" selection-end-line="47" selection-end-column="61" />
+            <state relative-caret-position="-432">
+              <caret line="9" column="51" selection-start-line="9" selection-start-column="51" selection-end-line="9" selection-end-column="51" />
+              <folding>
+                <element signature="e#0#21#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/player_main.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-2609">
+              <caret line="108" column="50" selection-start-line="108" selection-start-column="50" selection-end-line="108" selection-end-column="50" />
               <folding>
                 <element signature="e#0#21#0" expanded="true" />
               </folding>
@@ -150,22 +155,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/start_page.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="16">
-              <caret line="3" selection-start-line="3" selection-end-line="3" />
+            <state relative-caret-position="144">
+              <caret line="9" column="50" selection-start-line="9" selection-start-column="50" selection-end-line="9" selection-end-column="50" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/player_main.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="5216">
-              <caret line="327" column="73" lean-forward="true" selection-start-line="327" selection-start-column="73" selection-end-line="327" selection-end-column="73" />
-              <folding>
-                <element signature="e#0#21#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -222,15 +215,15 @@
       <list>
         <option value="$PROJECT_DIR$/크로울링.py" />
         <option value="$PROJECT_DIR$/bf4_states.py" />
-        <option value="$PROJECT_DIR$/bf4_states_start.py" />
-        <option value="$PROJECT_DIR$/start_page.py" />
-        <option value="$PROJECT_DIR$/weapons_page.py" />
-        <option value="$PROJECT_DIR$/vehicle_page.py" />
-        <option value="$PROJECT_DIR$/stats_data.py" />
-        <option value="$PROJECT_DIR$/player_main.py" />
-        <option value="$PROJECT_DIR$/rank_page.py" />
         <option value="$PROJECT_DIR$/player_data.py" />
         <option value="$PROJECT_DIR$/bf4data.py" />
+        <option value="$PROJECT_DIR$/bf4_states_start.py" />
+        <option value="$PROJECT_DIR$/player_main.py" />
+        <option value="$PROJECT_DIR$/rank_page.py" />
+        <option value="$PROJECT_DIR$/start_page.py" />
+        <option value="$PROJECT_DIR$/stats_data.py" />
+        <option value="$PROJECT_DIR$/vehicle_page.py" />
+        <option value="$PROJECT_DIR$/weapons_page.py" />
         <option value="$PROJECT_DIR$/bf4_states_main.py" />
       </list>
     </option>
@@ -246,6 +239,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -257,7 +251,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -432,25 +425,6 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
-    <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2502078" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4991708" weight="0.40469974" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39766702" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32898173" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50082916" side_tool="true" weight="0.32898173" />
-      <window_info anchor="bottom" id="Python Console" order="10" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-    </layout-to-restore>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -510,6 +484,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://C:/Python37/Lib/tkinter/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="839">
+          <caret line="1701" selection-start-line="1701" selection-end-line="1701" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/bf4_states.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -517,10 +498,54 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://C:/Python37/Lib/tkinter/__init__.py">
+    <entry file="file://$PROJECT_DIR$/bf4_states_start.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="839">
-          <caret line="1701" selection-start-line="1701" selection-end-line="1701" />
+        <state relative-caret-position="208">
+          <caret line="13" column="49" selection-start-line="13" selection-start-column="49" selection-end-line="13" selection-end-column="49" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+            <marker date="1559137474061" expanded="true" signature="2230:2252" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bf4data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="832">
+          <caret line="52" column="9" selection-start-line="52" selection-start-column="9" selection-end-line="52" selection-end-column="9" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/player_main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2609">
+          <caret line="108" column="50" selection-start-line="108" selection-start-column="50" selection-end-line="108" selection-end-column="50" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/start_page.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="9" column="50" selection-start-line="9" selection-start-column="50" selection-end-line="9" selection-end-column="50" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stats_data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-432">
+          <caret line="9" column="51" selection-start-line="9" selection-start-column="51" selection-end-line="9" selection-end-column="51" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -531,103 +556,55 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bf4_states_main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="210" column="27" lean-forward="true" selection-start-line="210" selection-start-column="27" selection-end-line="210" selection-end-column="27" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-            <marker date="1559136433020" expanded="true" signature="273:274" ph="..." />
-            <marker date="1559136433020" expanded="true" signature="374:375" ph="..." />
-            <marker date="1559136433020" expanded="true" signature="4129:4134" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rank_page.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1568">
-          <caret line="100" selection-start-line="100" selection-end-line="100" />
-          <folding>
-            <element signature="e#1#22#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/player_data.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="30" column="54" selection-start-line="30" selection-start-column="54" selection-end-line="30" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bf4data.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="736">
-          <caret line="52" column="9" selection-start-line="52" selection-start-column="9" selection-end-line="52" selection-end-column="9" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bf4_states_start.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1072">
-          <caret line="74" selection-start-line="74" selection-end-line="74" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-            <marker date="1558768038276" expanded="true" signature="2212:2234" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vehicle_page.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="25" column="77" selection-start-line="25" selection-start-column="77" selection-end-line="25" selection-end-column="77" />
-          <folding>
-            <element signature="e#0#21#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/weapons_page.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="13" column="16" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
+        <state relative-caret-position="-112">
+          <caret line="28" column="51" selection-start-line="28" selection-start-column="51" selection-end-line="28" selection-end-column="51" />
           <folding>
             <element signature="e#2#23#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/stats_data.py">
+    <entry file="file://$PROJECT_DIR$/rank_page.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="736">
-          <caret line="47" column="61" selection-start-line="47" selection-start-column="61" selection-end-line="47" selection-end-column="61" />
+        <state relative-caret-position="104">
+          <caret line="48" column="60" selection-start-line="48" selection-start-column="60" selection-end-line="48" selection-end-column="60" />
+          <folding>
+            <element signature="e#1#22#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/screenImage1.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/player_data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8">
+          <caret line="30" column="54" selection-start-line="30" selection-start-column="54" selection-end-line="30" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vehicle_page.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-992">
+          <caret line="28" column="39" selection-start-line="28" selection-start-column="39" selection-end-line="28" selection-end-column="39" />
           <folding>
             <element signature="e#0#21#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/start_page.py">
+    <entry file="file://$PROJECT_DIR$/bf4_states_main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="16">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        <state relative-caret-position="400">
+          <caret line="76" column="65" selection-start-line="76" selection-start-column="65" selection-end-line="76" selection-end-column="65" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/player_main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5216">
-          <caret line="327" column="73" lean-forward="true" selection-start-line="327" selection-start-column="73" selection-end-line="327" selection-end-column="73" />
-          <folding>
-            <element signature="e#0#21#0" expanded="true" />
+            <marker date="1559139376011" expanded="true" signature="273:274" ph="..." />
+            <marker date="1559139376011" expanded="true" signature="374:375" ph="..." />
+            <marker date="1559139376011" expanded="true" signature="4428:4433" ph="..." />
           </folding>
         </state>
       </provider>

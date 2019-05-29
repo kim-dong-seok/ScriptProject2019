@@ -11,9 +11,9 @@ class App2:
         self.window = Tk()
         self.window.title("bf4.gg")
         self.video_source = "bg-video.mp4"
-        self.originimage2 = Image.open("bf4.gg.png").resize((600, 120))
+        self.originimage2 = Image.open("ui_image/bf4.gg.png").resize((600, 120))
         self.logoImage = ImageTk.PhotoImage(self.originimage2)
-        self.orlginOpacity = Image.open("opacity.png")
+        self.orlginOpacity = Image.open("ui_image/opacity.png")
         self.opacityImage = ImageTk.PhotoImage(self.orlginOpacity.resize((600, 300)))
         online = requests.get("https://api.bf4stats.com/api/onlinePlayers?output=json").json()
         self.online_players = [online["pc"], online["ps4"],online["xone"],online["ps3"],online["xbox"]]

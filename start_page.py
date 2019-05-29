@@ -5,9 +5,9 @@ from PIL import Image, ImageTk
 
 class start_page():
     def __init__(self):
-        self.originimage2 = Image.open("bf4.gg.png")
+        self.originimage2 = Image.open("ui_image/bf4.gg.png")
         self.Big_logoImage = ImageTk.PhotoImage(self.originimage2.resize((600, 120)))
-        self.orlginOpacity = Image.open("opacity.png")
+        self.orlginOpacity = Image.open("ui_image/opacity.png")
         self.opacityImage = ImageTk.PhotoImage(self.orlginOpacity.resize((600, 300)))
         online = requests.get("https://api.bf4stats.com/api/onlinePlayers?output=json").json()
         self.online_players = [online["pc"], online["ps4"], online["xone"], online["ps3"], online["xbox"]]

@@ -55,7 +55,7 @@ class player_main:
 
         self.origin_level_image = Image.open(self.player_data.player["rank"]["imgLarge"]).resize((120, 120))
         self.level_image = ImageTk.PhotoImage(self.origin_level_image)
-        self.origin_contents_opacity = Image.open("내용배경.png")
+        self.origin_contents_opacity = Image.open("ui_image/내용배경.png")
         self.origin_rank1_weapon= Image.open("bf4/weapons_fancy/" + self.player_data.rank_weapons[0]["name"] + ".png").resize((147, 88))
         self.rank1_weapon= ImageTk.PhotoImage(self.origin_rank1_weapon)
         self.origin_rank2_weapon = Image.open("bf4/weapons_fancy/" + self.player_data.rank_weapons[1]["name"] + ".png").resize((73, 44))
@@ -82,11 +82,11 @@ class player_main:
         self.contents_opacity3 = ImageTk.PhotoImage(self.origin_contents_opacity.resize((331, 140)))
         self.contents_opacity3_1 = ImageTk.PhotoImage(self.origin_contents_opacity.resize((250, 140)))
         self.contents_opacity3_2 = ImageTk.PhotoImage(self.origin_contents_opacity.resize((80, 69)))
-        self.orlgin_menu_bg = Image.open("메뉴배경.png")
+        self.orlgin_menu_bg = Image.open("ui_image/메뉴배경.png")
         self.menu_bg = ImageTk.PhotoImage(self.orlgin_menu_bg.resize((331, 25)))
-        self.orlgin_gauge_bg = Image.open("게이지배경.png")
+        self.orlgin_gauge_bg = Image.open("ui_image/게이지배경.png")
         self.gauge_bg = ImageTk.PhotoImage(self.orlgin_gauge_bg.resize((160, 28)))
-        self.orlgin_gauge = Image.open("게이지.png")
+        self.orlgin_gauge = Image.open("ui_image/게이지.png")
         self.gauge = [ImageTk.PhotoImage(self.orlgin_gauge.resize((150, 20))) for i in range(4)]
         self.service_gauge_bg = ImageTk.PhotoImage(self.orlgin_gauge_bg.resize((230, 28)))
         self.service_gauge = [ImageTk.PhotoImage(self.orlgin_gauge.resize((220, 20))) for i in range(5)]
@@ -106,7 +106,7 @@ class player_main:
         self.dogtags_image[0] = ImageTk.PhotoImage(self.orlgin_dogtags[0])
         self.orlgin_dogtags[1] = Image.open(self.dogtags[1]["img"]).resize((192, 192))
         self.dogtags_image[1] = ImageTk.PhotoImage(self.orlgin_dogtags[1])
-        self.orlgin_circle = Image.open("원채우기.png")
+        self.orlgin_circle = Image.open("ui_image/원채우기.png")
         self.circle_image = ImageTk.PhotoImage(self.orlgin_circle.resize((28, 28)))
         self.win_percent=100-int(100/(1 + self.player_data.stats["extra"]["wlr"]))
         self.win_rotation=-360+int(360 / (1 + self.player_data.stats["extra"]["wlr"]))

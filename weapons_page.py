@@ -22,11 +22,11 @@ class weapon_page:
         self.sort_kill= player_data.rank_weapons
         self.menu_kans=[0,41,268,359,450,541,632,723,814,905]
         self.menu_cantents=["# ▼","무기","사살","분당 사살","헤드샷","헤드샷 사살률","발사한 탄","적중한 탄","명중률","공로 스타"]
-        self.origin_contents_opacity = Image.open("내용배경.png")
+        self.origin_contents_opacity = Image.open("ui_image/내용배경.png")
         self.contents_opacity1 = ImageTk.PhotoImage(self.origin_contents_opacity.resize((40, 80)))
         self.contents_opacity2 = ImageTk.PhotoImage(self.origin_contents_opacity.resize((226, 80)))
         self.contents_opacity3 = ImageTk.PhotoImage(self.origin_contents_opacity.resize((90, 80)))
-        self.orlgin_menu_bg = Image.open("메뉴배경.png")
+        self.orlgin_menu_bg = Image.open("ui_image/메뉴배경.png")
         self.menu_bg1 = ImageTk.PhotoImage(self.orlgin_menu_bg.resize((40, 20)))
         self.menu_bg2= ImageTk.PhotoImage(self.orlgin_menu_bg.resize((226, 20)))
         self.menu_bg3= ImageTk.PhotoImage(self.orlgin_menu_bg.resize((90, 20)))

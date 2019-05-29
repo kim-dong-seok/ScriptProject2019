@@ -5,9 +5,9 @@ from PIL import Image, ImageTk
 class stats_data:
     def __init__(self,player_data):
         self.player_data = player_data
-        self.origin_contents_opacity = Image.open("내용배경.png")
+        self.origin_contents_opacity = Image.open("ui_image/내용배경.png")
         self.contents_opacity = ImageTk.PhotoImage(self.origin_contents_opacity.resize((315, 35)))
-        self.orlgin_menu_bg = Image.open("메뉴배경.png")
+        self.orlgin_menu_bg = Image.open("ui_image/메뉴배경.png")
         self.menu_bg = ImageTk.PhotoImage(self.orlgin_menu_bg.resize((315, 25)))
         self.menus=["일반 통계","전투 통계","팀 점수","점수","추가","게임 모드" ]
         self.scores1 = ["플레이한 전투", "완료한 전투", "승리", "패배", "승리/패배 비율"]

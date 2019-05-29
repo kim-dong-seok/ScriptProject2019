@@ -20,10 +20,10 @@ from rank_page import*
 class bf4_main:
     def __init__(self):
         self.window = Tk()
-        self.window.title("bf4.gg")
+        self.window.title("ui_image/bf4.gg")
         self.window.geometry("1600x900+100+50")
 
-        self.video_source = "bg-video.mp4"
+        self.video_source = "bg-video/bg-video.mp4"
         self.vid = MyVideoCapture(self.video_source)
         self.width=1600
         self.height=900
@@ -43,17 +43,16 @@ class bf4_main:
         self.bcheck=-1
         self.canvas = Canvas(self.window,  width=self.width, height=self.height)
         self.canvas.pack()
-        self.orlgin_bgimage = Image.open("bg.jpg")
-        self.bgimage= ImageTk.PhotoImage(self.orlgin_bgimage.resize(( self.width, self.height)))
-        self.originimage2 = Image.open("bf4.gg.png").resize((160, 32))
+        self.originimage2 = Image.open("ui_image/bf4.gg.png").resize((160, 32))
         self.logoImage = ImageTk.PhotoImage(self.originimage2)
-        self.orlgin_logo_bg=Image.open("로고배경.png")
+        self.orlgin_logo_bg=Image.open("ui_image/로고배경.png")
         self.logo_bg = ImageTk.PhotoImage(self.orlgin_logo_bg.resize((1600, 45)))
-        self.orlgin_search_bg = Image.open("검색배경.png")
+        self.orlgin_search_bg = Image.open("ui_image/검색배경.png")
         self.search_bg = ImageTk.PhotoImage(self.orlgin_search_bg.resize((1600, 45)))
-        self.orlgin_name_bg = Image.open("내용배경.png")
+        self.orlgin_name_bg = Image.open("ui_image/내용배경.png")
         self.name_bg = ImageTk.PhotoImage(self.orlgin_name_bg.resize((350, 45)))
-
+        orlgin_gmail= Image.open("ui_image/gmail.png")
+        gmail_image = ImageTk.PhotoImage( orlgin_gmail.resize((20, 20)))
 
         self.count = 0
         self.e1 = Entry(self.canvas, font=("", 20), width=20)
@@ -66,14 +65,16 @@ class bf4_main:
         self.c1["values"]=("pc", "ps4", "xone", "ps3", "xbox")
         self.c1.set("Platform")
         self.c1.place(x=835, y=400)
-        self.e2 = Entry(self.canvas, font=("", 13,), width=20)
+        self.e2 = Entry(self.canvas, font=("", 16,), width=15)
         self.e2.insert(0, "Player name")
-        self.c2 = tkinter.ttk.Combobox(self.canvas, textvariable=self.str, width=8, font=("", 12))
+        self.c2 = tkinter.ttk.Combobox(self.canvas, textvariable=self.str, width=7, font=("", 15))
         self.c2["values"]=("pc", "ps4", "xone", "ps3", "xbox")
         self.c2.set("Platform")
         self.b2 = Button(self.canvas, text="Search", font=("", 10, "bold"), command=self.search,
                          width=9)
-
+        self.b3 = Button(self.canvas, text="home", font=("", 10, "bold"), command=self.search,
+                         width=9)
+        self.b4 = Button(self.canvas, image=gmail_image, text="  Send Email", font=("", 10, "bold"),compound="left", command=self.search)
         self.menu_buttons = [menu_button(300+(i*199),165) for i in range(5)]
         self.menu_buttons[0].btext="개요"
         self.menu_buttons[1].btext ="통계"
@@ -180,8 +181,10 @@ class bf4_main:
             self.rank_page = rank_page(self.player_data)
             self.c2.set("Platform")
             self.e2.place(x=300, y=self.height / 16)
-            self.c2.place(x=470, y=self.height / 16)
-            self.b2.place(x=565, y=self.height / 16)
+            self.c2.place(x=477, y=self.height / 16)
+            self.b2.place(x=585, y=self.height / 16)
+            self.b3.place(x=675, y=self.height / 16)
+            self.b4.place(x=1290, y=55,anchor="ne")
         else:
             self.player_name = self.e2.get()
             self.scene = 1
@@ -291,13 +294,13 @@ class menu_button:
         self.btext=btext
 
         if menu_button.orlgin_menu_bg==None:
-            self.orlgin_menu_bg = Image.open("메뉴배경.png")
+            self.orlgin_menu_bg = Image.open("ui_image/메뉴배경.png")
         self.menu_bg = ImageTk.PhotoImage(self.orlgin_menu_bg.resize((198, 35)))
         if menu_button.orlgin_gradient_bg == None:
-            self.orlgin_gradient_bg = Image.open("그라데이션.png")
+            self.orlgin_gradient_bg = Image.open("ui_image/그라데이션.png")
         self.gradient_bg = ImageTk.PhotoImage(self.orlgin_gradient_bg.resize((198, 35)))
         if menu_button.orlgin_click__bg == None:
-            self.orlgin_click_bg = Image.open("클릭시.png")
+            self.orlgin_click_bg = Image.open("ui_image/클릭시.png")
         self.click_bg = ImageTk.PhotoImage(self.orlgin_click_bg.resize((198, 35)))
 
     def update(self,x,y):
