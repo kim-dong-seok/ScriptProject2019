@@ -267,7 +267,7 @@ class player_main:
             self.score=32160000
         else:
             if self.score<self.player_data.player["score"]:
-                self.score += self.player_data.player["score"]/ 10
+                self.score += self.player_data.player["score"]/ 20
             if self.score>self.player_data.player["score"]:
                 self.score = self.player_data.player["score"]
 
@@ -275,14 +275,14 @@ class player_main:
             self.mode_stars =(self.mode_star(self.player_data.rank_modes[i])*100)%100
             if self.mode_stars>0:
                 if self.star_gauge[i]<self.mode_stars:
-                    self.star_gauge[i] += self.mode_stars/10
+                    self.star_gauge[i] += self.mode_stars/20
                     self.gauge[i]=ImageTk.PhotoImage(self.orlgin_gauge.resize((int(1.5* self.star_gauge[i]), 20)))
             elif self.mode_stars<0:
                 self.gauge[i] = ImageTk.PhotoImage(self.orlgin_gauge.resize((1, 20)))
         for i in range(5):
             if self.service_star[i]>0:
                 if self.service_star_gauge[i]<(self.service_star[i]*100)%100:
-                    self.service_star_gauge[i] += ((self.service_star[i]*100)%100)/10
+                    self.service_star_gauge[i] += ((self.service_star[i]*100)%100)/20
                     self.service_gauge[i]=ImageTk.PhotoImage(self.orlgin_gauge.resize((int(2* self.service_star_gauge[i]), 20)))
             elif self.service_star[i]<0:
                 self.service_gauge[i] = ImageTk.PhotoImage(self.orlgin_gauge.resize((1, 20)))
