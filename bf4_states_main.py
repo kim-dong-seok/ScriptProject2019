@@ -10,17 +10,23 @@ from vehicle_page import*
 from rank_page import*
 from bf4_gmail import *
 
+
+
 class bf4_main:
     def __init__(self):
         self.window = Tk()
-        self.window.title("ui_image/bf4.gg")
+        self.window.title("bf4.gg")
         self.window.geometry("1600x900+100+50")
-        self.video_source = "bg-video/bg-video.mp4"
+        self.video_source = "bg-video/Opacity_Rain.mp4"
         self.vid = MyVideoCapture(self.video_source)
         self.width=1600
         self.height=900
+        self.bgnum=0
+        self.thnum=0
+        self.issetting=0
         self.iscapture=0
         self.isdrag=0
+        self.background=0
         self.up=0
         self.x=0
         self.y=0
@@ -34,7 +40,7 @@ class bf4_main:
         self.player_name = " "
         self.scene=0
         self.b1ck=0
-        self.bcheck=-1
+        self.bcheck=0
         self.canvas = Canvas(self.window,  width=self.width, height=self.height)
         self.canvas.pack()
         originimage2 = Image.open("ui_image/bf4.gg.png")
@@ -51,6 +57,8 @@ class bf4_main:
         capture_image = ImageTk.PhotoImage(orlgin_capture.resize((20, 20)))
         orlgin_save = Image.open("ui_image/저장.png")
         save_image = ImageTk.PhotoImage(orlgin_save.resize((20, 20)))
+        orlgin_setting = Image.open("ui_image/설정.png")
+        setting_image = ImageTk.PhotoImage(orlgin_setting.resize((20, 20)))
         self.count = 0
         self.e1 = Entry(self.canvas, font=("", 20), width=20)
         self.e1.insert(0, "Player name")
@@ -77,6 +85,8 @@ class bf4_main:
                          command=self.capture,width=70)
         self.b6 = Button(self.canvas, image=gmail_image, text=" Send Email", font=("", 10, "bold"),compound="left",
                          command=self.gmail,width=115)
+        self.b7 = Button(self.canvas, image=setting_image, text=" Setting", font=("", 10, "bold"), compound="left",
+                         command=self.setting, width=100)
         self.menu_buttons = [menu_button(300+(i*199),165) for i in range(5)]
         self.menu_buttons[0].btext="개요"
         self.menu_buttons[1].btext ="통계"
@@ -90,21 +100,52 @@ class bf4_main:
         self.delay = 10
         self.update()
         self.window.mainloop()
-
+    def setting(self):
+        if self.issetting==0:
+            self.issetting=1
+            self.st = tkinter.Frame(self.window, width=200, height=300)
+            self.st.place(x=1100, y=135)
+            self.background_name = ["Opacity_Rain", "Rain", "Dragons Teeth", "Naval Strike", "Final Stand", "Airbase",
+                               "Skyscrapers"]
+            sl1 = Label(self.st, text="배경을 설정합니다")
+            sl1.place(x=100, y=10, anchor="center")
+            sr = [0] * 7
+            self.bvar = IntVar()
+            for z in range(len(self.background_name)):
+                sr[z] = Radiobutton(self.st, text=self.background_name[z], value=z, variable=self.bvar,
+                                    indicatoron=0)
+                sr[z].place(x=0, y=20 + 30 * z, width=200, height=30)
+            sr[self.bgnum].select()
+            sb1 = Button(self.st, text="취소", command=self.cancel)
+            sb1.place(x=50, y=250, anchor="center")
+            sb2 = Button(self.st, text="적용", command=self.active)
+            sb2.place(x=150, y=250, anchor="center")
+        else:
+            self.st.destroy()
+            self.issetting=0
+    def active(self):
+        self.bgnum=self.bvar.get()
+        self.video_source="bg-video/{0}.mp4".format(self.background_name[self.bgnum])
+        self.vid = MyVideoCapture(self.video_source)
+        self.st.destroy()
+        self.issetting = 0
+    def cancel(self):
+        self.st.destroy()
+        self.issetting = 0
     def send(self):
-        send_email(self.ge1.get())
+        send_email(self.ee1.get())
     def gmail(self):
         self.t=tkinter.Toplevel(self.window)
         self.t.geometry("330x200+800+100")
         self.t.title("Send Email")
-        gl1 = Label(self.t, text="캡처한 이미지를 이메일로 전송합니다.")
-        gl1.pack()
-        gl2 = Label(self.t, text="전송할 이메일 주소")
-        gl2.pack()
-        self.ge1=Entry(self.t)
-        self.ge1.pack()
-        gb1 = Button(self.t,text="전송",command=self.send())
-        gb1.pack()
+        el1 = Label(self.t, text="캡처한 이미지를 이메일로 전송합니다")
+        el1.pack()
+        el2 = Label(self.t, text="전송할 이메일 주소")
+        el2.pack()
+        self.ee1=Entry(self.t)
+        self.ee1.pack()
+        eb1 = Button(self.t,text="전송",command=self.send())
+        eb1.pack()
 
     def home(self):
         self.scene = 0
@@ -115,7 +156,9 @@ class bf4_main:
         self.b4.place_forget()
         self.b5.place_forget()
         self.b6.place_forget()
-        self.e1.insert(0, "Player name")
+        self.b7.place_forget()
+        self.e1.delete(0,15)
+        self.e1.insert(0,"Player name")
         self.e1.place(x=500, y=400)
         self.b1.place(x=1100, y=400, anchor="ne")
         self.c1.place(x=835, y=400)
@@ -139,7 +182,7 @@ class bf4_main:
         return list(map(int, m.groups()))
     def capture(self):
         position=self.parsegeometry(self.window.geometry())
-        print(self.window.geometry())
+
         print("ox={0} oy={1} nx={2} ny={3}".format(self.ox+position[2]+9, self.oy+position[3]+32, self.nx+position[2]+8, self.ny+position[3]+30))
         img = ImageGrab.grab(bbox=(self.ox+position[2]+9, self.oy+position[3]+32, self.nx+position[2]+8, self.ny+position[3]+30))
         img.save("screenImage1.jpg")
@@ -224,6 +267,7 @@ class bf4_main:
             self.b4.place(x=1075, y=55, anchor="ne")
             self.b5.place(x=1160, y=55, anchor="ne")
             self.b6.place(x=1290, y=55,anchor="ne")
+            self.b7.place(x=1290, y=105, anchor="ne")
         else:
             self.player_name = self.e2.get()
             self.scene = 1
@@ -233,6 +277,8 @@ class bf4_main:
             self.weapon_page = weapon_page(self.player_data)
             self.vehicle_page = Vehicle_page(self.player_data)
             self.rank_page = rank_page(self.player_data)
+            self.e2.delete(0, 15)
+            self.e2.insert(0, "Player name")
             self.c2.set("Platform")
     def click(self,event):
         if self.iscapture == 0:
@@ -298,6 +344,18 @@ class bf4_main:
                     self.vehicle_page.update(self.x,self.y)
         self.draw()
         self.window.after(self.delay, self.update)
+    def video_chage(self):
+        if self.background==0:
+            self.video_source="bg-video/bg-video3.mp4"
+        self.vid.vid = cv2.VideoCapture(self.video_source)
+        self.vid.frame_counter = 0
+        if not self.vid.vid.isOpened():
+            raise ValueError("Unable to open video source", self.video_source)
+
+        # Get video source width and height
+        self.vid.width = self.vid.vid.get(cv2.CAP_PROP_FRAME_WIDTH)
+        self.vid.height = self.vid.vid.get(cv2.CAP_PROP_FRAME_HEIGHT)
+
     def draw(self):
         if self.scene==0:
             self.start_page.draw(self.canvas)

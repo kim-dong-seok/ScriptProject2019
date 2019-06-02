@@ -36,4 +36,3 @@ class send_email:
         s.login("ggbf4gg@gmail.com","sharqia994433")
         s.sendmail(senderAddr , [recipientAddr], msg.as_string())
         s.close()
-send_email("pop9846@gmail.com")
