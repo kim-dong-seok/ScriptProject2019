@@ -133,7 +133,8 @@ class bf4_main:
         self.st.destroy()
         self.issetting = 0
     def send(self):
-        send_email(self.ee1.get())
+        email_id=self.ee1.get()
+        send_email(email_id)
     def gmail(self):
         self.t=tkinter.Toplevel(self.window)
         self.t.geometry("330x200+800+100")
@@ -144,7 +145,7 @@ class bf4_main:
         el2.pack()
         self.ee1=Entry(self.t)
         self.ee1.pack()
-        eb1 = Button(self.t,text="전송",command=self.send())
+        eb1 = Button(self.t,text="전송",command=self.send)
         eb1.pack()
 
     def home(self):
