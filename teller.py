@@ -27,9 +27,19 @@ def playerInfoData(data1,data2,data3,data4, user):
             msg += r+'\n'
     if msg:
         noti.sendMessage( user, msg )
-    else:
-        noti.sendMessage( user, '아이디가 없거나 정보가 없습니다.'%data1 )
-
+def playerRankingsData(data1,data2,data3,data4, user):
+    print(user, data1)
+    res_list = noti.getPlayerRankingsData( data1,data2,data3,data4)
+    msg = ''
+    for r in res_list:
+        print( str(datetime.now()).split('.')[0], r )
+        if len(r+msg)+1>noti.MAX_MSG_LENGTH:
+            noti.sendMessage( user, msg )
+            msg = r+'\n'
+        else:
+            msg += r+'\n'
+    if msg:
+        noti.sendMessage( user, msg )
 def onlinePlayersData(date_param, user ):
     print(user, date_param)
     res_list = noti.getOnlinePlayersData( date_param )
@@ -55,19 +65,27 @@ def handle(msg):
     text = msg['text']
     args = text.split(' ')
     if text.startswith('?'):
-        noti.sendMessage(chat_id,
-                         '명령어 도움말\n현재 접속자 수-[onlinePlayers], 플레이어 정보 검색-[playerInfo] [playerName] [platform], 플레이어 랭킹 검색-[playerRankings] [playerName] [platform] 중 하나의 명령을 입력하세요.')
+        noti.sendMessage(chat_id, '명령어 도움말\n현재 접속자 수 - [onlinePlayers]\n'
+                                  '플레이어 정보 검색 - [playerInfo] [playerName] [platform] [key값]\n'
+                                  '(key 값-player, stats, weapons,  weaponCategory, vehicles ,vehicleCategory)\n'
+                                  ' 플레이어 랭킹 검색-[playerRankings] [playerName] [platform] [key값]\n'
+                                  '(key 값-player, stats, weapons,  weaponCategory, vehicles ,vehicleCategory)\n'
+                                  '중 하나의 명령을 입력하세요.')
     elif text.startswith('onlinePlayers') and len(args) > 0:
         print('try to onlinePlayers')
         onlinePlayersData(args[0], chat_id)
     elif text.startswith('playerInfo') and len(args) > 3:
         print('try to playerInfo')
         playerInfoData(args[0],args[1],args[2],args[3], chat_id)
+    elif text.startswith('playerRankings') and len(args) > 3:
+        print('try to playerRankings')
+        playerRankingsData(args[0],args[1],args[2],args[3], chat_id)
     else:
         noti.sendMessage(chat_id, '모르는 명령어입니다.\n현재 접속자 수 - [onlinePlayers]\n'
                                   '플레이어 정보 검색 - [playerInfo] [playerName] [platform] [key값]\n'
-                                  '(key 값-player, stats, dogtags, weapons, weaponCategory, kititems, vehicles, vehicleCategory'
-                                  ' 플레이어 랭킹 검색-[playerRankings] [playerName] [platform] \n'
+                                  '(key 값-player, stats, weapons,  weaponCategory, vehicles ,vehicleCategory)\n'
+                                  ' 플레이어 랭킹 검색-[playerRankings] [playerName] [platform] [key값]\n'
+                                  '(key 값-player, kit,mode,  weapon, vehicles ,ribbon,kititem)\n'
                                   '중 하나의 명령을 입력하세요.')
 
 
