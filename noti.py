@@ -13,7 +13,7 @@ from datetime import date, datetime, timedelta
 import traceback
 import requests
 
-TOKEN = '861927235:AAFOOzJm5q0p15mdFQ3w649xZn5hcIDyMjU'
+TOKEN = ''
 MAX_MSG_LENGTH = 300
 baseurl = 'https://api.bf4stats.com/api/'
 bot = telepot.Bot(TOKEN)
