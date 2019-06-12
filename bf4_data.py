@@ -1,7 +1,7 @@
 import requests
 
 class player_data:
-    def __init__(self,player_name="sharqia",player_plat="pc"):
+    def __init__(self,player_name=" ",player_plat=" "):
         self.data = requests.get("https://api.bf4stats.com/api/playerInfo?plat=" + player_plat + "&name=" + player_name + "&output=json").json()
         self.player = self.data["player"]
         self.stats =self.data["stats"]

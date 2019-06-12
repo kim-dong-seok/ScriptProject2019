@@ -2,13 +2,8 @@
 # coding=utf-8
 
 import sys
-import time
-import sqlite3
 import telepot
 from pprint import pprint
-from urllib.request import urlopen
-from bs4 import BeautifulSoup
-import re
 from datetime import date, datetime, timedelta
 import traceback
 import requests

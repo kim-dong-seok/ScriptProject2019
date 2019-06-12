@@ -1,13 +1,13 @@
 import tkinter.ttk
 import cv2
 from PIL import ImageGrab
-from stats_data import*
-from player_data import*
-from player_main import*
-from start_page import*
-from weapons_page import*
-from vehicle_page import*
-from rank_page import*
+from bf4_first import*
+from bf4_data import*
+from bf4_player import*
+from bf4_stats import*
+from bf4_weapons import*
+from bf4_vehicle import*
+from bf4_rank import*
 from bf4_gmail import *
 
 
