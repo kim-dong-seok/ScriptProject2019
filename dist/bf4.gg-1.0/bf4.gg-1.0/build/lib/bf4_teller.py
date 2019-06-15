@@ -79,7 +79,7 @@ def handle(msg):
                                   '플레이어 정보 검색 - [playerInfo] [platform] [playerName] [key값]\n'
                                   '(key 값-player, stats, weapons,  weaponCategory, vehicles ,vehicleCategory)\n'
                                   ' 플레이어 랭킹 검색-[playerRankings] [platform] [playerName] [key값]\n'
-                                  '(key 값-player, stats, weapons,  weaponCategory, vehicles ,vehicleCategory)\n'
+                                  '(key 값-player, kit,mode,  weapon, vehicles ,ribbon,kititem)\n'
                                   '중 하나의 명령을 입력하세요.')
 
 
