@@ -1,15 +1,15 @@
 import requests
 from tkinter import *
 from PIL import Image, ImageTk
-
+import bf4
 
 class start_page():
     def __init__(self):
-        self.originimage2 = Image.open("ui_image/bf4.gg.png")
-        self.Big_logoImage = ImageTk.PhotoImage(self.originimage2.resize((600, 120)))
-        self.orlginOpacity = Image.open("ui_image/opacity.png")
-        self.opacityImage = ImageTk.PhotoImage(self.orlginOpacity.resize((600, 300)))
-        online = requests.get("https://api.bf4stats.com/api/onlinePlayers?output=json").json()
+        online = requests.get(bf4.onlinePlayers()).json()
+        originimage2 = Image.open("ui_image/bf4.gg.png")
+        self.Big_logoImage = ImageTk.PhotoImage(originimage2.resize((600, 120)))
+        orlginOpacity = Image.open("ui_image/opacity.png")
+        self.opacityImage = ImageTk.PhotoImage(orlginOpacity.resize((600, 300)))
         self.online_players = [online["pc"], online["ps4"], online["xone"], online["ps3"], online["xbox"]]
         self.total_players = 0
         for i in range(5):

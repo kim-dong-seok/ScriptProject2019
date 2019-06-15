@@ -4,17 +4,17 @@
 import sys
 import telepot
 from pprint import pprint
-from datetime import date, datetime, timedelta
+from datetime import date
 import traceback
 import requests
+import bf4
 
-TOKEN = ''
+TOKEN = bf4.token()
 MAX_MSG_LENGTH = 300
-baseurl = 'https://api.bf4stats.com/api/'
 bot = telepot.Bot(TOKEN)
-def getOnlinePlayersData( date_param):
+def getOnlinePlayersData( ):
     res_list = []
-    url = baseurl+date_param+"?output=json"
+    url = bf4.onlinePlayers()
     data=requests.get(url).json()
     for i in data:
         row = "플랫폼["+data[i]["label"]+"]  현재 접속자 수 "+str(data[i]["count"])+"명\n최근 하루 최고 접속자 수 "+str(data[i]["peak24"])+"명"
@@ -22,9 +22,9 @@ def getOnlinePlayersData( date_param):
         if row:
             res_list.append(row)
     return res_list
-def getPlayerInfoData( data1,data2,data3,data4):
+def getPlayerInfoData( data2,data3,data4):
     res_list = []
-    url = baseurl+data1+"?plat="+data3+"&name="+data2+"&opt="+data4+"&output=json"
+    url = bf4.playerInfo(data2,data3)
     originData=requests.get(url).json()
     data=originData[data4]
     if data4=="player":
@@ -85,9 +85,9 @@ def getPlayerInfoData( data1,data2,data3,data4):
             if row:
                 res_list.append(row)
     return res_list
-def getPlayerRankingsData( data1,data2,data3,data4):
+def getPlayerRankingsData( data2,data3,data4):
     res_list = []
-    url = baseurl+data1+"?plat="+data3+"&name="+data2+"&opt="+data4+"&output=json"
+    url = bf4.playerRankings( data2,data3)
     originData=requests.get(url).json()
     data=originData["rankings"]
     for i in data:

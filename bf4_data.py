@@ -1,8 +1,8 @@
 import requests
-
+import bf4
 class player_data:
     def __init__(self,player_name=" ",player_plat=" "):
-        self.data = requests.get("https://api.bf4stats.com/api/playerInfo?plat=" + player_plat + "&name=" + player_name + "&output=json").json()
+        self.data = requests.get(bf4.playerInfo(player_plat,player_name)).json()
         self.player = self.data["player"]
         self.stats =self.data["stats"]
         self.dogtags =self.data["dogtags"]
@@ -20,8 +20,7 @@ class player_data:
         self.rank_vehicles = sorted(self.vehicles, key=lambda t: t["stat"]["kills"], reverse=True)
         self.rank_modes = sorted(self.modes, key=lambda t: t["score"], reverse=True)
 
-        self.ranking = requests.get(
-            "https://api.bf4stats.com/api/playerRankings?plat=" + player_plat + "&name=" + player_name + "&output=json").json()
+        self.ranking = requests.get(bf4.playerRankings(player_plat,player_name)).json()
         self.player_ranking = self.ranking["rankings"]
         for i in range(len(self.player_ranking)):
             if self.player_ranking[i]["rank"] == None:

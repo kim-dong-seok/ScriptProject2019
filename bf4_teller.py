@@ -10,7 +10,7 @@ import bf4_noti
 
 def playerInfoData(data1,data2,data3,data4, user):
     print(user, data1)
-    res_list = bf4_noti.getPlayerInfoData( data1,data2,data3,data4)
+    res_list = bf4_noti.getPlayerInfoData( data2,data3,data4)
     msg = ''
     for r in res_list:
         print( str(datetime.now()).split('.')[0], r )
@@ -23,7 +23,7 @@ def playerInfoData(data1,data2,data3,data4, user):
         bf4_noti.sendMessage( user, msg )
 def playerRankingsData(data1,data2,data3,data4, user):
     print(user, data1)
-    res_list = bf4_noti.getPlayerRankingsData( data1,data2,data3,data4)
+    res_list = bf4_noti.getPlayerRankingsData( data2,data3,data4)
     msg = ''
     for r in res_list:
         print( str(datetime.now()).split('.')[0], r )
@@ -36,7 +36,7 @@ def playerRankingsData(data1,data2,data3,data4, user):
         bf4_noti.sendMessage( user, msg )
 def onlinePlayersData(date_param, user ):
     print(user, date_param)
-    res_list = bf4_noti.getOnlinePlayersData( date_param )
+    res_list = bf4_noti.getOnlinePlayersData( )
     msg = ''
     for r in res_list:
         print( str(datetime.now()).split('.')[0], r )
@@ -60,14 +60,14 @@ def handle(msg):
     args = text.split(' ')
     if text.startswith('?'):
         bf4_noti.sendMessage(chat_id, '명령어 도움말\n현재 접속자 수 - [onlinePlayers]\n'
-                                  '플레이어 정보 검색 - [playerInfo] [playerName] [platform] [key값]\n'
+                                  '플레이어 정보 검색 - [playerInfo] [platform] [playerName] [key값]\n'
                                   '(key 값-player, stats, weapons,  weaponCategory, vehicles ,vehicleCategory)\n'
-                                  ' 플레이어 랭킹 검색-[playerRankings] [playerName] [platform] [key값]\n'
+                                  ' 플레이어 랭킹 검색-[playerRankings] [platform] [playerName] [key값]\n'
                                   '(key 값-player, stats, weapons,  weaponCategory, vehicles ,vehicleCategory)\n'
                                   '중 하나의 명령을 입력하세요.')
     elif text.startswith('onlinePlayers') and len(args) > 0:
         print('try to onlinePlayers')
-        onlinePlayersData(args[0], chat_id)
+        onlinePlayersData( chat_id)
     elif text.startswith('playerInfo') and len(args) > 3:
         print('try to playerInfo')
         playerInfoData(args[0],args[1],args[2],args[3], chat_id)
@@ -76,9 +76,9 @@ def handle(msg):
         playerRankingsData(args[0],args[1],args[2],args[3], chat_id)
     else:
         bf4_noti.sendMessage(chat_id, '모르는 명령어입니다.\n현재 접속자 수 - [onlinePlayers]\n'
-                                  '플레이어 정보 검색 - [playerInfo] [playerName] [platform] [key값]\n'
+                                  '플레이어 정보 검색 - [playerInfo] [platform] [playerName] [key값]\n'
                                   '(key 값-player, stats, weapons,  weaponCategory, vehicles ,vehicleCategory)\n'
-                                  ' 플레이어 랭킹 검색-[playerRankings] [playerName] [platform] [key값]\n'
+                                  ' 플레이어 랭킹 검색-[playerRankings] [platform] [playerName] [key값]\n'
                                   '(key 값-player, kit,mode,  weapon, vehicles ,ribbon,kititem)\n'
                                   '중 하나의 명령을 입력하세요.')
 

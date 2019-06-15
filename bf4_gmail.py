@@ -2,7 +2,7 @@ import mimetypes
 import smtplib
 from email.mime.base import MIMEBase
 from email.mime.image import MIMEImage
-
+from bf4 import*
 
 
 class send_email:
@@ -11,7 +11,7 @@ class send_email:
         port = "587"
         htmlFileName = "logo.html"
 
-        senderAddr = "ggbf4gg@gmail.com" # 보내는 사람 email 주소.
+        senderAddr =gmail_id() # 보내는 사람 email 주소.
         recipientAddr = email  	# 받는 사람 email 주소.
 
         msg = MIMEBase("multipart", "alternative")
@@ -19,7 +19,7 @@ class send_email:
         msg['From'] = senderAddr
         msg['To'] = recipientAddr
         # MIME 문서를 생성합니다.
-        imageFD = open('screenImage1.jpg', 'rb')#image 파일 오픈 후 MIMEImage생성
+        imageFD = open('bf4.gg.jpg', 'rb')#image 파일 오픈 후 MIMEImage생성
         ImagePart = MIMEImage(imageFD.read() ,_subtype = "jpg")
         imageFD.close()
 
@@ -33,6 +33,6 @@ class send_email:
         s.ehlo()
         s.starttls()
         s.ehlo()
-        s.login("ggbf4gg@gmail.com","sharqia994433")
+        s.login(gmail_id(),gmail_pw())
         s.sendmail(senderAddr , [recipientAddr], msg.as_string())
         s.close()

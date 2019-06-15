@@ -103,23 +103,23 @@ class bf4_main:
     def setting(self):
         if self.issetting==0:
             self.issetting=1
-            self.st = tkinter.Frame(self.window, width=200, height=300)
-            self.st.place(x=1100, y=135)
+            self.st = tkinter.Frame(self.window, width=220, height=300)
+            self.st.place(x=1075, y=135)
             self.background_name = ["Opacity_Rain", "Rain", "Dragons Teeth", "Naval Strike", "Final Stand", "Airbase",
                                "Skyscrapers"]
-            sl1 = Label(self.st, text="배경을 설정합니다")
-            sl1.place(x=100, y=10, anchor="center")
+            sl1 = Label(self.st, text="배경을 설정합니다",font=("", 10, "bold"))
+            sl1.place(x=110, y=20, anchor="center")
             sr = [0] * 7
             self.bvar = IntVar()
             for z in range(len(self.background_name)):
-                sr[z] = Radiobutton(self.st, text=self.background_name[z], value=z, variable=self.bvar,
+                sr[z] = Radiobutton(self.st, text=self.background_name[z],font=("", 10, "bold"), value=z, variable=self.bvar,
                                     indicatoron=0)
-                sr[z].place(x=0, y=20 + 30 * z, width=200, height=30)
+                sr[z].place(x=110, y= 40+ 31 * z, width=210, height=30,anchor="n")
             sr[self.bgnum].select()
-            sb1 = Button(self.st, text="취소", command=self.cancel)
-            sb1.place(x=50, y=250, anchor="center")
-            sb2 = Button(self.st, text="적용", command=self.active)
-            sb2.place(x=150, y=250, anchor="center")
+            sb1 = Button(self.st, text="취소",font=("", 10, "bold"), command=self.cancel)
+            sb1.place(x=60, y=280, anchor="center",width=70)
+            sb2 = Button(self.st, text="적용",font=("", 10, "bold"), command=self.active)
+            sb2.place(x=160, y=275, anchor="center",width=70)
         else:
             self.st.destroy()
             self.issetting=0
@@ -135,17 +135,18 @@ class bf4_main:
     def send(self):
         email_id=self.ee1.get()
         send_email(email_id)
+        self.t.destroy()
     def gmail(self):
         self.t=tkinter.Toplevel(self.window)
-        self.t.geometry("330x200+800+100")
+        self.t.geometry("260x110+1140+170")
         self.t.title("Send Email")
-        el1 = Label(self.t, text="캡처한 이미지를 이메일로 전송합니다")
+        el1 = Label(self.t, text="캡처한 이미지를 이메일로 전송합니다",font=("", 10, "bold"))
         el1.pack()
-        el2 = Label(self.t, text="전송할 이메일 주소")
+        el2 = Label(self.t, text="전송할 이메일 주소",font=("", 10, "bold"))
         el2.pack()
-        self.ee1=Entry(self.t)
+        self.ee1=Entry(self.t,font=("", 10, "bold"),width=30)
         self.ee1.pack()
-        eb1 = Button(self.t,text="전송",command=self.send)
+        eb1 = Button(self.t,text="전송",font=("", 10, "bold"),width=5,command=self.send)
         eb1.pack()
 
     def home(self):
@@ -186,7 +187,7 @@ class bf4_main:
 
         print("ox={0} oy={1} nx={2} ny={3}".format(self.ox+position[2]+9, self.oy+position[3]+32, self.nx+position[2]+8, self.ny+position[3]+30))
         img = ImageGrab.grab(bbox=(self.ox+position[2]+9, self.oy+position[3]+32, self.nx+position[2]+8, self.ny+position[3]+30))
-        img.save("screenImage1.jpg")
+        img.save("bf4.gg.jpg")
         self.iscapture = 0
     def capture_mode(self):
 
@@ -293,11 +294,10 @@ class bf4_main:
                     self.player_main = player_main(self.player_data)
 
     def Contents_click(self, event):
-
-        for i in range(5):
-            if self.menu_buttons[i].ckeck == 2:
-                self.menu_buttons[i].ckeck = 0
         if self.player_main.mouse_count - 1<=5:
+            for i in range(5):
+                if self.menu_buttons[i].ckeck == 2:
+                    self.menu_buttons[i].ckeck = 0
             self.menu_buttons[self.player_main.mouse_count].ckeck = 2
             self.scene = self.player_main.mouse_count + 1
     def motion(self,event):
@@ -305,7 +305,6 @@ class bf4_main:
             if self.scene!=0:
                 self.x,self.y=event.x,event.y
                 self.mause_update()
-
     def mause_update(self):
 
         if self.scene!=0:
