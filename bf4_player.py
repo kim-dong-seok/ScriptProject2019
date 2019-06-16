@@ -283,8 +283,8 @@ class player_main:
             if self.service_star[i]>0:
                 if self.service_star_gauge[i]<(self.service_star[i]*100)%100:
                     self.service_star_gauge[i] += ((self.service_star[i]*100)%100)/20
-                    self.service_gauge[i]=ImageTk.PhotoImage(self.orlgin_gauge.resize((int(2* self.service_star_gauge[i]), 20)))
-            elif self.service_star[i]<0:
+                    self.service_gauge[i]=ImageTk.PhotoImage(self.orlgin_gauge.resize((int(1+(2* self.service_star_gauge[i])), 20)))
+            elif self.service_star[i]<=0:
                 self.service_gauge[i] = ImageTk.PhotoImage(self.orlgin_gauge.resize((1, 20)))
         if self.player_data.player["score"] < 32160000:
             self.rank_gauge = ImageTk.PhotoImage(self.orlgin_gauge.resize((int(280*(self.score/self.player_data.player["rank"]["next"]["needed"])), 20)))

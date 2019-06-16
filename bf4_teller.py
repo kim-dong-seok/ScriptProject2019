@@ -67,7 +67,7 @@ def handle(msg):
                                   '중 하나의 명령을 입력하세요.')
     elif text.startswith('onlinePlayers') and len(args) > 0:
         print('try to onlinePlayers')
-        onlinePlayersData( chat_id)
+        onlinePlayersData( args[0],chat_id)
     elif text.startswith('playerInfo') and len(args) > 3:
         print('try to playerInfo')
         playerInfoData(args[0],args[1],args[2],args[3], chat_id)

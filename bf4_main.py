@@ -16,7 +16,7 @@ class bf4_main:
     def __init__(self):
         self.window = Tk()
         self.window.title("bf4.gg")
-        self.window.geometry("1600x900+100+50")
+        self.window.geometry("1600x900+0+0")
         self.video_source = "bg-video/Opacity_Rain.mp4"
         self.vid = MyVideoCapture(self.video_source)
         self.width=1600
